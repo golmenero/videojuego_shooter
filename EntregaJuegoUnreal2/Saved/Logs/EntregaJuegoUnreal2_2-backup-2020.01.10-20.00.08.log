@@ -1,0 +1,1074 @@
+﻿Log file open, 01/10/20 18:39:38
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1832737302) SRandInit(-1832737302).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114309
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.10-17.39.38:816][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.10-17.39.38:816][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.10-17.39.38:828][  0]LogInit: Computer: DESKTOP-VCH55FJ
+[2020.01.10-17.39.38:828][  0]LogInit: User: CarlosGómez
+[2020.01.10-17.39.38:828][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.01.10-17.39.38:828][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.10-17.39.38:828][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.01.10-17.39.38:828][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.10-17.39.38:828][  0]LogMemory: Process Physical Memory: 274.26 MB used, 274.26 MB peak
+[2020.01.10-17.39.38:828][  0]LogMemory: Process Virtual Memory: 267.29 MB used, 267.29 MB peak
+[2020.01.10-17.39.38:828][  0]LogMemory: Physical Memory: 7954.08 MB used,  8379.62 MB free, 16333.70 MB total
+[2020.01.10-17.39.38:828][  0]LogMemory: Virtual Memory: 4781.21 MB used,  8379.62 MB free, 134217728.00 MB total
+[2020.01.10-17.39.38:894][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.10-17.39.38:894][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.10-17.39.39:758][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.10-17.39.39:834][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.01.10-17.39.39:834][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.10-17.39.39:836][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.10-17.39.39:836][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.10-17.39.39:836][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.10-17.39.39:843][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.10-17.39.39:843][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.10-17.39.39:843][  0]LogWindows: EnumDisplayDevices:
+[2020.01.10-17.39.39:843][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.01.10-17.39.39:843][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2020.01.10-17.39.39:843][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.10-17.39.39:843][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.10-17.39.39:843][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.10-17.39.39:843][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.01.10-17.39.39:843][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.10-17.39.39:843][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.10-17.39.39:843][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.10-17.39.39:895][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.10-17.39.39:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.10-17.39.39:909][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Intermediate/Shaders/WorkingDirectory/12076/).
+[2020.01.10-17.39.39:909][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos Gómez/AppData/Local/Temp/UnrealShaderWorkingDir/4EB5402D499DEA8ABF3BABAC3664D15B/'.
+[2020.01.10-17.39.39:909][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.10-17.39.40:863][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.10-17.39.40:916][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.10-17.39.40:967][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.10-17.39.41:018][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.10-17.39.41:070][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.10-17.39.41:121][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.10-17.39.41:171][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.10-17.39.41:223][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.10-17.39.41:268][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.10-17.39.41:321][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.10-17.39.41:372][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.10-17.39.41:424][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.10-17.39.41:478][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.10-17.39.41:528][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.10-17.39.41:578][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.10-17.39.41:684][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.10-17.39.41:684][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.10-17.39.41:724][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.10-17.39.41:818][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.10-17.39.41:849][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.10-17.39.41:898][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.10-17.39.41:949][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.10-17.39.42:000][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.10-17.39.42:050][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.10-17.39.42:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.10-17.39.42:559][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.10-17.39.42:642][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.10-17.39.42:643][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.10-17.39.42:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.10-17.39.42:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.10-17.39.42:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.10-17.39.42:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.10-17.39.42:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.10-17.39.42:670][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.10-17.39.42:679][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.10-17.39.42:679][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.10-17.39.42:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.10-17.39.42:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.10-17.39.42:989][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.10-17.39.43:051][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.10-17.39.43:192][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.10-17.39.43:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.10-17.39.43:284][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.10-17.39.43:284][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.10-17.39.43:284][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.10-17.39.43:790][  0]LogNetVersion: EntregaJuegoUnreal2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631086534)
+[2020.01.10-17.39.43:851][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2020.01.10-17.39.43:896][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.021472 seconds
+[2020.01.10-17.39.43:902][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.10-17.39.43:902][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2020.01.10-17.39.43:902][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.10-17.39.43:977][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.10-17.39.45:725][  0]LogWmfMedia: Failed to load mf.dll
+[2020.01.10-17.39.45:725][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2020.01.10-17.39.45:773][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2020.01.10-17.39.45:773][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2020.01.10-17.39.45:774][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2020.01.10-17.39.46:201][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.10-17.39.46:241][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.10-17.39.46:760][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.10-17.39.47:134][  0]SourceControl: Info Source control is disabled
+[2020.01.10-17.39.47:135][  0]SourceControl: Info Source control is disabled
+[2020.01.10-17.39.47:182][  0]SourceControl: Info Source control is disabled
+[2020.01.10-17.39.47:228][  0]SourceControl: Info Source control is disabled
+[2020.01.10-17.39.47:899][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.10-17.39.48:477][  0]LogEngine: Initializing Engine...
+[2020.01.10-17.39.48:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.10-17.39.48:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.10-17.39.48:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.10-17.39.48:765][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.10-17.39.48:796][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.39.48:811][  0]LogInit: FAudioDevice initialized.
+[2020.01.10-17.39.48:866][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.10-17.39.48:880][  0]LogInit: Texture streaming: Enabled
+[2020.01.10-17.39.48:977][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.10-17.39.49:194][  0]LogInit: Transaction tracking system initialized
+[2020.01.10-17.39.49:499][  0]BlueprintLog: New page: Editor Load
+[2020.01.10-17.39.50:421][  0]LocalizationService: Info Localization service is disabled
+[2020.01.10-17.39.51:083][  0]LogConsoleResponse:Display: 
+[2020.01.10-17.39.51:206][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.10-17.39.51:206][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.10-17.39.51:354][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.02s
+[2020.01.10-17.39.52:226][  0]SourceControl: Info Source control is disabled
+[2020.01.10-17.39.52:227][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.10-17.39.52:227][  0]LightingResults: New page: Lighting Build
+[2020.01.10-17.39.52:270][  0]MapCheck: New page: Map Check
+[2020.01.10-17.39.52:270][  0]LightingResults: New page: Lighting Build
+[2020.01.10-17.39.52:851][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.39.52:863][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.10-17.39.52:876][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.10-17.39.52:936][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.579ms to complete.
+[2020.01.10-17.39.52:936][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.709
+[2020.01.10-17.39.53:080][  0]LogCollectionManager: Loaded 0 collections in 0.001671 seconds
+[2020.01.10-17.39.53:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' took 0.01s
+[2020.01.10-17.39.53:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' took 0.01s
+[2020.01.10-17.39.53:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' took 0.01s
+[2020.01.10-17.39.53:159][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.10-17.39.53:169][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2329 classes and 491 folders.
+[2020.01.10-17.39.53:234][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.10-17.39.53:271][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.10-17.39.53:313][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.10-17.39.53:352][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.10-17.39.53:356][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.10-17.39.53:359][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.10-17.39.53:363][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.10-17.39.53:438][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2020.01.10-17.39.53:491][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.10-17.39.53:535][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.10-17.39.53:601][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.10-17.39.53:601][  0]LogLoad: (Engine Initialization) Total time: 16.41 seconds
+[2020.01.10-17.39.53:601][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2020.01.10-17.39.53:601][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.10-17.39.53:610][  0]LogOcInput: OculusInput pre-init called
+[2020.01.10-17.39.53:610][  0]LogHMD: Starting GearVRController plugin
+[2020.01.10-17.39.53:632][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.10-17.39.53:697][  1]LogAssetRegistry: Asset discovery search completed in 9.8680 seconds
+[2020.01.10-17.39.53:698][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.10-17.39.53:698][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2020.01.10-17.39.54:635][ 98]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.10-17.39.55:851][126]LogEditorViewport: Clicking on Actor (LMB): MuroEliminableBlueprint_C (MuroEliminableBlueprint)
+[2020.01.10-17.39.58:689][436]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.10-17.39.59:066][436]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2020.01.10-17.40.00:593][436]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.10-17.40.00:681][437]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.10-17.40.03:852][653]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2020.01.10-17.40.50:124][368]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.40.50:238][368]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.40.50:626][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.40.50:646][387]LogSavePackage: Save=9.65ms
+[2020.01.10-17.40.50:646][387]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMurosFA9B4B994228FFE5789E389FFCD82F84.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.40.50:649][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.41.45:387][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.41.45:401][383]LogSavePackage: Save=10.31ms
+[2020.01.10-17.41.45:401][383]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros6EB3322A4F7CDC45724CD1B159A236F6.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.41.45:402][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.42.29:014][520]LogEditorTransaction: Undo Edit Y
+[2020.01.10-17.44.10:542][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.44.10:556][534]LogSavePackage: Save=10.50ms
+[2020.01.10-17.44.10:556][534]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros9928CA2C4D9B8E7935472BAF7F6C01CB.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.44.10:559][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.44.11:115][563]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.44.11:327][563]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.44.30:254][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminableBlueprint" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset" SILENT=true
+[2020.01.10-17.44.30:313][959]LogSavePackage: Save=49.48ms
+[2020.01.10-17.44.30:313][959]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableBlueprint3A3800784DDFACB88A11BCA6FF0097FA.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset'
+[2020.01.10-17.44.30:316][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset
+[2020.01.10-17.44.30:863][999]BlueprintLog: New page: Compile MuroEliminableBlueprint
+[2020.01.10-17.44.32:743][166]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-17.44.32:805][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.44.32:805][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-17.44.32:806][166]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 7:44:32 PM)
+[2020.01.10-17.44.32:806][166]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-17.44.32:825][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019495s)
+[2020.01.10-17.44.32:826][166]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.44.32:826][166]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2020.01.10-17.44.32:826][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020491s)
+[2020.01.10-17.44.32:870][166]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.44.32:879][166]LogInit: FAudioDevice initialized.
+[2020.01.10-17.44.32:926][166]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-17.44.32:930][166]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-18.44.32
+[2020.01.10-17.44.32:930][166]LogWorld: Bringing up level for play took: 0.003575
+[2020.01.10-17.44.32:971][166]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2020.01.10-17.44.32:972][166]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.436
+[2020.01.10-17.44.32:973][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.44.38:450][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.44.38:500][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.44.39:469][919]LogEditorViewport: Clicking on Actor (LMB): MuroEliminableBlueprint_C (MuroEliminableBlueprint)
+[2020.01.10-17.44.57:841][534]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.10-17.44.58:341][567]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.10-17.44.58:860][611]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.10-17.44.58:866][611]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MuroEliminableBlueprint.StaticMeshComponent0) Component already registered.
+[2020.01.10-17.45.01:559][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminableBlueprint" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset" SILENT=true
+[2020.01.10-17.45.01:614][844]LogSavePackage: Save=50.53ms
+[2020.01.10-17.45.01:614][844]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableBlueprint71B3C9254002C635C3AA5AA429E82B55.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset'
+[2020.01.10-17.45.01:616][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset
+[2020.01.10-17.45.02:340][906]BlueprintLog: New page: Compile MuroEliminableBlueprint
+[2020.01.10-17.45.37:489][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.45.37:503][947]LogSavePackage: Save=9.49ms
+[2020.01.10-17.45.37:503][947]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMurosD2CF1457412DA001CBF5F48727BBBAEC.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.45.37:505][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.45.38:076][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.45.38:090][977]LogSavePackage: Save=9.36ms
+[2020.01.10-17.45.38:090][977]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMurosF0744BA147D2A92FD13388BE87D7C3C8.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.45.38:091][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.45.38:605][  3]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.45.38:781][  3]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.45.47:271][606]BlueprintLog: New page: Compile MuroEliminableBlueprint
+[2020.01.10-17.45.47:873][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminableBlueprint" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset" SILENT=true
+[2020.01.10-17.45.47:927][634]LogSavePackage: Save=49.53ms
+[2020.01.10-17.45.47:927][634]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableBlueprint707C01634ED0A0D1CB9F3FB14B53E636.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset'
+[2020.01.10-17.45.47:929][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset
+[2020.01.10-17.45.50:233][854]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-17.45.50:259][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.45.50:259][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-17.45.50:259][854]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 7:45:50 PM)
+[2020.01.10-17.45.50:259][854]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-17.45.50:278][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019338s)
+[2020.01.10-17.45.50:279][854]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.45.50:279][854]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2020.01.10-17.45.50:279][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020470s)
+[2020.01.10-17.45.50:322][854]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.45.50:331][854]LogInit: FAudioDevice initialized.
+[2020.01.10-17.45.50:363][854]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-17.45.50:368][854]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-18.45.50
+[2020.01.10-17.45.50:368][854]LogWorld: Bringing up level for play took: 0.003498
+[2020.01.10-17.45.50:369][854]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.961
+[2020.01.10-17.45.50:369][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.45.54:168][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.45.54:220][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.45.57:061][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.01.10-17.45.57:773][700]LogEditorViewport: Clicking on Actor (LMB): MuroEliminableBlueprint_C (MuroEliminableBlueprint)
+[2020.01.10-17.46.41:237][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.46.41:276][179]LogSavePackage: Save=29.55ms
+[2020.01.10-17.46.41:276][179]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros823D097049C0994372110B8F82CF333A.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.46.41:279][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.46.41:534][192]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.46.41:645][192]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.46.45:211][553]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-17.46.45:237][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.46.45:237][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-17.46.45:237][553]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 7:46:45 PM)
+[2020.01.10-17.46.45:238][553]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-17.46.45:257][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019766s)
+[2020.01.10-17.46.45:258][553]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.46.45:258][553]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2020.01.10-17.46.45:258][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020863s)
+[2020.01.10-17.46.45:307][553]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.46.45:317][553]LogInit: FAudioDevice initialized.
+[2020.01.10-17.46.45:350][553]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-17.46.45:354][553]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-18.46.45
+[2020.01.10-17.46.45:355][553]LogWorld: Bringing up level for play took: 0.003470
+[2020.01.10-17.46.45:356][553]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.053
+[2020.01.10-17.46.45:356][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.46.48:747][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.46.48:797][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.47.39:125][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.47.39:139][618]LogSavePackage: Save=9.52ms
+[2020.01.10-17.47.39:139][618]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros4FE09C6146E7003C7A19FABF552FC1D9.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.47.39:141][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.47.39:587][641]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.47.39:753][641]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.48.15:504][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.48.15:518][444]LogSavePackage: Save=10.53ms
+[2020.01.10-17.48.15:518][444]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros9C4ECF01402B764B5E98518F8C734E32.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.48.15:521][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.48.15:831][460]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.48.15:943][460]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.48.42:157][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.48.42:171][146]LogSavePackage: Save=9.79ms
+[2020.01.10-17.48.42:171][146]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMurosEC4748334999DBD86FD7E8AD695613C3.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.48.42:174][146]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.48.42:520][164]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.48.42:686][164]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.48.46:440][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.48.46:453][353]LogSavePackage: Save=9.54ms
+[2020.01.10-17.48.46:454][353]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros2BB2626F445A8FAD1E3268868E6F8073.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.48.46:456][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.48.46:804][371]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.48.46:915][371]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.49.10:265][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-17.49.10:279][768]LogSavePackage: Save=9.81ms
+[2020.01.10-17.49.10:279][768]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros56A24E724049B7AC1A7B44AFEB960B34.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-17.49.10:282][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-17.49.10:615][785]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-17.49.10:786][785]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-17.49.19:671][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminableBlueprint" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset" SILENT=true
+[2020.01.10-17.49.19:726][424]LogSavePackage: Save=51.10ms
+[2020.01.10-17.49.19:726][424]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableBlueprint387E4D5442F77B5411406B80D94E405A.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset'
+[2020.01.10-17.49.19:728][424]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset
+[2020.01.10-17.49.20:088][450]BlueprintLog: New page: Compile MuroEliminableBlueprint
+[2020.01.10-17.49.22:997][718]Cmd: SELECT NONE
+[2020.01.10-17.49.23:938][830]Cmd: SELECT NONE
+[2020.01.10-17.49.24:838][937]LogEditorViewport: Clicking on Actor (LMB): MuroEliminableBlueprint_C (MuroEliminableBlueprint)
+[2020.01.10-17.50.12:115][326]LogSavePackage: Save=274.41ms
+[2020.01.10-17.50.12:115][326]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_Auto1661F5C124ADE859F28A7C9ABF4BA1C03.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.01.10-17.50.12:117][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2020.01.10-17.50.12:119][326]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.311
+[2020.01.10-17.50.12:119][326]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2020.01.10-17.51.05:344][926]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.10-17.51.11:307][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminableBlueprint" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset" SILENT=true
+[2020.01.10-17.51.11:367][354]LogSavePackage: Save=49.74ms
+[2020.01.10-17.51.11:367][354]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableBlueprint4C8505FA4F0344BE361483A8DB7C3E53.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset'
+[2020.01.10-17.51.11:369][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminableBlueprint.uasset
+[2020.01.10-17.51.12:255][418]BlueprintLog: New page: Compile MuroEliminableBlueprint
+[2020.01.10-17.51.14:431][592]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-17.51.14:457][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.51.14:457][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-17.51.14:457][592]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 7:51:14 PM)
+[2020.01.10-17.51.14:457][592]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-17.51.14:478][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020446s)
+[2020.01.10-17.51.14:478][592]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.51.14:478][592]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2020.01.10-17.51.14:479][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021616s)
+[2020.01.10-17.51.14:521][592]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.51.14:530][592]LogInit: FAudioDevice initialized.
+[2020.01.10-17.51.14:564][592]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-17.51.14:569][592]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-18.51.14
+[2020.01.10-17.51.14:569][592]LogWorld: Bringing up level for play took: 0.003649
+[2020.01.10-17.51.14:570][592]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.838
+[2020.01.10-17.51.14:570][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.51.29:096][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.51.29:150][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.56.39:235][348]LogEditorViewport: Clicking on Actor (LMB): MuroEliminableBlueprint_C (MuroEliminableBlueprint)
+[2020.01.10-17.56.46:036][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.10-17.56.46:106][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MuroEliminableBlueprint_C_0' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Widget_GEN_VARIABLE' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MuroEliminableBlueprint_C_1' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASHCLASS_MuroEliminableBlueprint_64' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_12' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Spin' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Sphere_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MuroEliminableBlueprint' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/MuroEliminableBlueprint'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Spin' or package '/Game/MuroEliminableBlueprint'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Game/MuroEliminableBlueprint'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Sphere_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Game/MuroEliminableBlueprint'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Widget' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Player Ref' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CanInteract' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MuroEliminableBlueprint_C_103' or package '/Engine/Transient'.
+[2020.01.10-17.56.46:991][877]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MuroEliminableBlueprint_C_102' or package '/Engine/Transient'.
+[2020.01.10-17.56.58:427][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FenceWall2)
+[2020.01.10-17.56.59:507][433]Cmd: EDIT COPY
+[2020.01.10-17.56.59:706][456]Cmd: EDIT PASTE
+[2020.01.10-17.57.10:435][675]LogSavePackage: Save=249.41ms
+[2020.01.10-17.57.10:435][675]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap337B2B1B43983EB92D22F4842DCD6D3A.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-17.57.10:441][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-17.57.11:069][675]LogSavePackage: Save=576.06ms
+[2020.01.10-17.57.11:069][675]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData3D32BE2D476386CBCE26EEA803F899BB.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-17.57.11:071][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-17.57.20:999][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FenceWall4)
+[2020.01.10-17.57.26:112][404]LogSavePackage: Save=253.59ms
+[2020.01.10-17.57.26:112][404]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapDB4DA5BE4FA48EA33844A685F493EA04.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-17.57.26:116][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-17.57.26:719][404]LogSavePackage: Save=561.99ms
+[2020.01.10-17.57.26:719][404]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData0CF8CCF84E6E5862A6423BAD5AE7D7F3.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-17.57.26:721][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-17.57.42:118][536]LogSavePackage: Save=252.47ms
+[2020.01.10-17.57.42:118][536]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap502F70BC4FCA27033A090C8712F408BD.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-17.57.42:120][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-17.57.42:733][536]LogSavePackage: Save=571.55ms
+[2020.01.10-17.57.42:733][536]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData425B05CE4FC4118C4991DA9C8EC23633.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-17.57.42:735][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-17.57.43:089][558]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-17.57.43:115][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.57.43:116][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-17.57.43:116][558]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 7:57:43 PM)
+[2020.01.10-17.57.43:116][558]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-17.57.43:136][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020028s)
+[2020.01.10-17.57.43:137][558]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-17.57.43:137][558]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2020.01.10-17.57.43:137][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021302s)
+[2020.01.10-17.57.43:180][558]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-17.57.43:190][558]LogInit: FAudioDevice initialized.
+[2020.01.10-17.57.43:219][558]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-17.57.43:223][558]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-18.57.43
+[2020.01.10-17.57.43:224][558]LogWorld: Bringing up level for play took: 0.003277
+[2020.01.10-17.57.43:225][558]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.184
+[2020.01.10-17.57.43:225][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.57.46:804][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.57.46:857][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-17.57.52:443][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FenceWall4)
+[2020.01.10-17.57.53:787][794]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (FenceWall4)
+[2020.01.10-17.58.46:556][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-17.58.46:581][584]LogSavePackage: Save=22.46ms
+[2020.01.10-17.58.46:581][584]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable8362E3AE45667B5CEE2DBE8139070D0F.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-17.58.46:583][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-17.58.46:927][613]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-17.59.10:028][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-17.59.10:065][319]LogSavePackage: Save=19.10ms
+[2020.01.10-17.59.10:065][319]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableD242FE374F2259E0FBE6B797DB5E8FCD.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-17.59.10:068][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-17.59.34:598][555]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-17.59.59:487][141]LogSavePackage: Save=249.04ms
+[2020.01.10-17.59.59:487][141]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap4098D5EF47FF6C4FE9122CBF21C48AA2.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-17.59.59:491][141]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-18.00.00:076][141]LogSavePackage: Save=546.89ms
+[2020.01.10-18.00.00:076][141]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData2B9F52A54C163C6697AC3383217BF6B0.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-18.00.00:078][141]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-18.00.31:976][838]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.01.10-18.08.03:486][511]LogSlate: Took 0.001834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.01.10-18.09.19:150][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/SupervivenciaHUD" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset" SILENT=true
+[2020.01.10-18.09.19:213][526]LogSavePackage: Save=53.83ms
+[2020.01.10-18.09.19:213][526]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/SupervivenciaHUD99151FF54979BC87FB8CDE9CA20E9ADA.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset'
+[2020.01.10-18.09.19:216][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset
+[2020.01.10-18.09.19:556][545]BlueprintLog: New page: Compile SupervivenciaHUD
+[2020.01.10-18.09.19:753][545]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-18.10.29:687][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/SupervivenciaHUD" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset" SILENT=true
+[2020.01.10-18.10.29:720][416]LogSavePackage: Save=29.17ms
+[2020.01.10-18.10.29:720][416]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/SupervivenciaHUDB66B9F89401076FD7F609A92F1A9D5BC.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset'
+[2020.01.10-18.10.29:723][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset
+[2020.01.10-18.10.35:924][445]BlueprintLog: New page: Compile SupervivenciaHUD
+[2020.01.10-18.10.36:043][445]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-18.10.42:942][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/SupervivenciaHUD" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset" SILENT=true
+[2020.01.10-18.10.42:978][831]LogSavePackage: Save=30.75ms
+[2020.01.10-18.10.42:978][831]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/SupervivenciaHUD97BC3F8E4901E6DA7BC00DA1113AB4FA.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset'
+[2020.01.10-18.10.42:979][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/SupervivenciaHUD.uasset
+[2020.01.10-18.10.49:313][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.10.49:341][216]LogSavePackage: Save=18.73ms
+[2020.01.10-18.10.49:341][216]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable8D44CAF843E6B11743EDF99BA3DF8750.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.10.49:344][216]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.10.52:696][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.10.52:719][533]LogSavePackage: Save=18.63ms
+[2020.01.10-18.10.52:719][533]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminableB4D8DE5C4880F161F7C09BA4B1474623.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.10.52:722][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.11.23:697][879]LogSavePackage: Save=261.47ms
+[2020.01.10-18.11.23:697][879]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_Auto20700B02149DCD1EFC78CFFB237FBC4AA.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2020.01.10-18.11.23:699][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2020.01.10-18.11.23:701][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.297
+[2020.01.10-18.11.23:701][879]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.297
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_2.WidgetTree_1143.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_3.WidgetTree_1144.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_32.WidgetTree_1116.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_33.WidgetTree_1117.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_34.WidgetTree_1118.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_35.WidgetTree_1119.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_36.WidgetTree_1120.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_37.WidgetTree_1121.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_38.WidgetTree_1122.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_39.WidgetTree_1123.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_40.WidgetTree_1124.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_43.WidgetTree_1127.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_44.WidgetTree_1128.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_45.WidgetTree_1129.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SupervivenciaHUD_C_47:WidgetTree.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_46.WidgetTree_1130.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD_C:WidgetTree.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_1.WidgetTree_1146.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SupervivenciaHUD_C_44:WidgetTree.CanvasPanel_0
+[2020.01.10-18.12.29:782][533]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:SupervivenciaHUD_C_4.WidgetTree_1147.CanvasPanel_0
+[2020.01.10-18.12.29:783][533]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_16).  Import failed...
+[2020.01.10-18.12.29:783][533]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree_1152' or package '/Engine/Transient'.
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InteraccionMuros_C_2' or package '/Engine/Transient'.
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InteraccionMuros_C_3' or package '/Engine/Transient'.
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_InteraccionMuros_C_54' or package '/Engine/Transient'.
+[2020.01.10-18.13.03:868][538]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_InteraccionMuros_C_53' or package '/Engine/Transient'.
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/InteraccionMuros.InteraccionMuros:WidgetTree.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree:CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.InteraccionMuros_C_0:WidgetTree_1153.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.InteraccionMuros_C_1:WidgetTree_1154.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_17:InteraccionMuros_C_2.WidgetTree_1155.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_17:InteraccionMuros_C_3.WidgetTree_1156.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_InteraccionMuros_C_56:WidgetTree.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD_C:WidgetTree.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/InteraccionMuros.InteraccionMuros_C:WidgetTree.CanvasPanel_0
+[2020.01.10-18.13.14:456][540]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Widgets/SupervivenciaHUD.SupervivenciaHUD_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_16).  Import failed...
+[2020.01.10-18.13.14:456][540]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2020.01.10-18.13.34:973][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/InteraccionMuros" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset" SILENT=true
+[2020.01.10-18.13.35:003][560]LogSavePackage: Save=27.44ms
+[2020.01.10-18.13.35:003][560]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/InteraccionMuros8545A10E487AB39F1A85A6A20A8052F6.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset'
+[2020.01.10-18.13.35:005][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Widgets/InteraccionMuros.uasset
+[2020.01.10-18.13.35:619][595]BlueprintLog: New page: Compile InteraccionMuros
+[2020.01.10-18.13.35:792][595]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2020.01.10-18.14.00:811][870]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.10-18.14.56:202][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.14.56:229][237]LogSavePackage: Save=22.38ms
+[2020.01.10-18.14.56:229][237]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable0589EC324D6581CADE86E686A10E4DD9.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.14.56:232][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.14.56:680][278]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.15.09:243][362]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.15.09:265][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.15.09:265][362]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.10-18.15.09:266][362]LogPlayLevel: [PlayLevel] Compiling SupervivenciaHUD before play...
+[2020.01.10-18.15.09:367][362]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2020.01.10-18.15.09:367][362]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:15:09 PM)
+[2020.01.10-18.15.09:367][362]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.15.09:389][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021147s)
+[2020.01.10-18.15.09:389][362]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.15.09:390][362]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2020.01.10-18.15.09:390][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022401s)
+[2020.01.10-18.15.09:439][362]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.15.09:448][362]LogInit: FAudioDevice initialized.
+[2020.01.10-18.15.09:479][362]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.15.09:483][362]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.15.09
+[2020.01.10-18.15.09:484][362]LogWorld: Bringing up level for play took: 0.003304
+[2020.01.10-18.15.09:485][362]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.076
+[2020.01.10-18.15.09:485][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.15.15:815][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.15.15:867][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.15.31:729][786]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event ActorBeginOverlap  and was replaced as a Custom Event!
+[2020.01.10-18.15.31:740][786]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event ActorBeginOverlap  and was replaced as a Custom Event!
+[2020.01.10-18.15.42:907][818]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event ActorBeginOverlap  and was replaced as a Custom Event!
+[2020.01.10-18.16.09:897][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.16.09:932][259]LogSavePackage: Save=23.19ms
+[2020.01.10-18.16.09:932][259]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable9FC292DF437665B03DF0E0844BE3A2E4.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.16.09:934][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.16.10:419][305]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.16.12:402][498]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.16.12:424][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.16.12:424][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.16.12:424][498]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:16:12 PM)
+[2020.01.10-18.16.12:424][498]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.16.12:444][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019991s)
+[2020.01.10-18.16.12:444][498]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.16.12:444][498]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2020.01.10-18.16.12:445][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021088s)
+[2020.01.10-18.16.12:487][498]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.16.12:496][498]LogInit: FAudioDevice initialized.
+[2020.01.10-18.16.12:525][498]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.16.12:530][498]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.16.12
+[2020.01.10-18.16.12:530][498]LogWorld: Bringing up level for play took: 0.003390
+[2020.01.10-18.16.12:531][498]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.877
+[2020.01.10-18.16.12:531][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.16.16:987][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.16.17:042][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.17.01:990][195]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.10-18.17.06:571][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.17.06:601][622]LogSavePackage: Save=25.84ms
+[2020.01.10-18.17.06:601][622]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable0C6830F84E151A0B72709D832A6DDD32.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.17.06:604][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.17.06:931][652]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.17.06:936][652]LogBlueprint:Error: [Compiler MuroEliminable] Error The current value of the ' Target Set ' pin is invalid: Set inputs (like 'Target Set') must have an input wired into them (try connecting a MakeSet node).
+[2020.01.10-18.17.07:138][652]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Set ' pin is invalid: Set inputs (like 'Target Set') must have an input wired into them (try connecting a MakeSet node).
+[2020.01.10-18.17.07:138][652]LogBlueprint:Warning: [Compiler MuroEliminable] Warning [2249.95] Compile of MuroEliminable failed. 1 Fatal Issue(s) 0 Warning(s) [in 207 ms] (/Game/MuroEliminable.MuroEliminable)
+[2020.01.10-18.19.42:962][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.19.42:992][654]LogSavePackage: Save=25.31ms
+[2020.01.10-18.19.42:992][654]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable00EC0AFF45C7299DC761D3820ED7A2F5.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.19.42:995][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.19.43:340][685]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.19.45:583][904]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.19.45:605][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.19.45:605][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.19.45:605][904]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:19:45 PM)
+[2020.01.10-18.19.45:606][904]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.19.45:625][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019596s)
+[2020.01.10-18.19.45:626][904]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.19.45:626][904]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2020.01.10-18.19.45:626][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020783s)
+[2020.01.10-18.19.45:667][904]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.19.45:676][904]LogInit: FAudioDevice initialized.
+[2020.01.10-18.19.45:709][904]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.19.45:713][904]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.19.45
+[2020.01.10-18.19.45:714][904]LogWorld: Bringing up level for play took: 0.003253
+[2020.01.10-18.19.45:715][904]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.307
+[2020.01.10-18.19.45:715][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.19.56:016][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.19.56:070][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.20.07:901][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FenceWall2)
+[2020.01.10-18.20.08:644][602]Cmd: DELETE
+[2020.01.10-18.20.08:644][602]Cmd: ACTOR DELETE
+[2020.01.10-18.20.08:645][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.10-18.20.08:659][602]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.01.10-18.20.12:001][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FenceWall3)
+[2020.01.10-18.20.12:589][ 56]Cmd: DELETE
+[2020.01.10-18.20.12:589][ 56]Cmd: ACTOR DELETE
+[2020.01.10-18.20.12:590][ 56]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.10-18.20.12:604][ 56]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2020.01.10-18.20.25:179][497]LogSavePackage: Save=256.92ms
+[2020.01.10-18.20.25:179][497]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap21F6965F4A92AAB54C748C9D0FA2B8F4.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-18.20.25:182][497]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-18.20.25:783][497]LogSavePackage: Save=543.36ms
+[2020.01.10-18.20.25:783][497]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltDataEC928F194B2DC4AC5C4A3489D0BBE70D.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-18.20.25:785][497]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-18.20.29:817][934]LogSavePackage: Save=259.35ms
+[2020.01.10-18.20.29:817][934]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap42090C6246A189F70A555CB3F371E4DB.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.10-18.20.29:819][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.10-18.20.30:399][934]LogSavePackage: Save=542.08ms
+[2020.01.10-18.20.30:399][934]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltDataB23BD1B044E0A6842A0618B87DB3E1BD.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.10-18.20.30:401][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.10-18.20.31:311][ 36]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.20.31:333][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.20.31:333][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.20.31:333][ 36]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:20:31 PM)
+[2020.01.10-18.20.31:333][ 36]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.20.31:354][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020550s)
+[2020.01.10-18.20.31:354][ 36]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.20.31:355][ 36]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2020.01.10-18.20.31:355][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021843s)
+[2020.01.10-18.20.31:398][ 36]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.20.31:407][ 36]LogInit: FAudioDevice initialized.
+[2020.01.10-18.20.31:440][ 36]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.20.31:444][ 36]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.20.31
+[2020.01.10-18.20.31:445][ 36]LogWorld: Bringing up level for play took: 0.003332
+[2020.01.10-18.20.31:446][ 36]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.037
+[2020.01.10-18.20.31:446][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.20.39:356][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.20.39:406][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.48:924][430]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.29.49:421][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.29.49:462][458]LogSavePackage: Save=27.32ms
+[2020.01.10-18.29.49:462][458]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable850465E64DC8F719B25723A071EA49B0.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.29.49:465][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.29.50:639][561]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.29.50:662][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.50:662][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.29.50:662][561]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:29:50 PM)
+[2020.01.10-18.29.50:662][561]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.29.50:684][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021429s)
+[2020.01.10-18.29.50:685][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.29.50:685][561]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2020.01.10-18.29.50:685][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022832s)
+[2020.01.10-18.29.50:727][561]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.29.50:736][561]LogInit: FAudioDevice initialized.
+[2020.01.10-18.29.50:767][561]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.29.50:772][561]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.29.50
+[2020.01.10-18.29.50:772][561]LogWorld: Bringing up level for play took: 0.003450
+[2020.01.10-18.29.50:774][561]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.635
+[2020.01.10-18.29.50:774][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.51:877][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.51:932][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.53:960][875]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.29.53:981][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.53:981][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.29.53:981][875]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:29:53 PM)
+[2020.01.10-18.29.53:981][875]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.29.54:002][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021104s)
+[2020.01.10-18.29.54:003][875]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.29.54:003][875]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2020.01.10-18.29.54:004][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022247s)
+[2020.01.10-18.29.54:043][875]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.29.54:052][875]LogInit: FAudioDevice initialized.
+[2020.01.10-18.29.54:080][875]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.29.54:084][875]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.29.54
+[2020.01.10-18.29.54:085][875]LogWorld: Bringing up level for play took: 0.003309
+[2020.01.10-18.29.54:086][875]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.677
+[2020.01.10-18.29.54:086][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.59:119][474]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.29.59:171][474]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.30.44:790][629]LogSavePackage: Save=256.78ms
+[2020.01.10-18.30.44:790][629]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_Auto343DE040B4DA82FC91F92839225705D55.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2020.01.10-18.30.44:793][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2020.01.10-18.30.44:795][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.292
+[2020.01.10-18.30.44:795][629]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
+[2020.01.10-18.30.44:797][629]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/SupervivenciaHUD] ([1] browsable assets)...
+[2020.01.10-18.30.44:797][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/SupervivenciaHUD]
+[2020.01.10-18.30.44:835][629]LogSavePackage: Save=28.13ms
+[2020.01.10-18.30.44:835][629]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/SupervivenciaHUD_Auto3D2418F104FF00CA69580A5839AC88729.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Widgets/SupervivenciaHUD_Auto3.uasset'
+[2020.01.10-18.30.44:836][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Widgets/SupervivenciaHUD_Auto3.uasset
+[2020.01.10-18.30.44:837][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MuroEliminable] ([1] browsable assets)...
+[2020.01.10-18.30.44:846][629]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MuroEliminable.MuroEliminable]
+[2020.01.10-18.30.44:846][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/MuroEliminable]
+[2020.01.10-18.30.44:878][629]LogSavePackage: Save=26.21ms
+[2020.01.10-18.30.44:878][629]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable_Auto341EF331F485C633DF6490AA287D753FB.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/MuroEliminable_Auto3.uasset'
+[2020.01.10-18.30.44:879][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/MuroEliminable_Auto3.uasset
+[2020.01.10-18.30.44:879][629]LogFileHelpers: Auto-saving content packages took 0.083
+[2020.01.10-18.32.48:007][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuroEliminable" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset" SILENT=true
+[2020.01.10-18.32.48:042][756]LogSavePackage: Save=29.52ms
+[2020.01.10-18.32.48:042][756]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/MuroEliminable223A4F8345068B4E4F20AEB266CED064.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset'
+[2020.01.10-18.32.48:047][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/MuroEliminable.uasset
+[2020.01.10-18.32.48:403][788]BlueprintLog: New page: Compile MuroEliminable
+[2020.01.10-18.32.50:311][969]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.10-18.32.50:332][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.32.50:333][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.10-18.32.50:333][969]PIE: New page: PIE session: FirstPersonExampleMap (Jan 10, 2020, 8:32:50 PM)
+[2020.01.10-18.32.50:333][969]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.10-18.32.50:353][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020680s)
+[2020.01.10-18.32.50:354][969]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.10-18.32.50:354][969]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2020.01.10-18.32.50:355][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021945s)
+[2020.01.10-18.32.50:397][969]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.10-18.32.50:406][969]LogInit: FAudioDevice initialized.
+[2020.01.10-18.32.50:439][969]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.10-18.32.50:443][969]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.10-19.32.50
+[2020.01.10-18.32.50:444][969]LogWorld: Bringing up level for play took: 0.003364
+[2020.01.10-18.32.50:445][969]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.036
+[2020.01.10-18.32.50:445][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.32.58:718][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.32.58:769][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.10-18.33.42:695][556]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.01.10-18.33.42:749][557]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EntregaJuegoUnreal2
+[2020.01.10-18.33.42:749][557]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.01.10-18.33.42:749][557]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.16
+[2020.01.10-18.33.42:749][557]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.01.10-18.33.42:749][557]LogTemp: BranchPath = DESKTOP-VCH55FJ/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-VCH55FJ/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2020.01.10-18.33.42:770][558]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Carlos G?mez\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MuroEliminable_C_249' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputKeyDelegateBinding_1' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_E_K2Node_InputKeyEvent_1' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorEndOverlap' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MuroEliminable' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Game/MuroEliminable'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorEndOverlap' or package '/Game/MuroEliminable'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MuroEliminable_C_246' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MuroEliminable' or package '/Game/MuroEliminable'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MuroEliminable_C_244' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MuroEliminable_C_248' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MuroEliminable_C_5' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2020.01.10-18.34.07:732][296]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MuroEliminable_C_4' or package '/Engine/Transient'.
+[2020.01.10-18.35.14:711][176]Cmd: QUIT_EDITOR
+[2020.01.10-18.35.15:450][176]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.10-18.35.15:463][176]LogExit: Preparing to exit.
+[2020.01.10-18.35.15:799][176]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.10-18.35.15:837][176]LogExit: Editor shut down
+[2020.01.10-18.35.15:846][176]LogExit: Transaction tracking system shut down
+[2020.01.10-18.35.16:066][176]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.10-18.35.16:066][176]LogExit: Object subsystem successfully closed.
+[2020.01.10-18.35.16:091][176]LogD3D11RHI: Shutdown
+[2020.01.10-18.35.16:091][176]LogD3D11RHI: CleanupD3DDevice
+[2020.01.10-18.35.16:200][176]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.01.10-18.35.16:218][176]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.01.10-18.35.16:218][176]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.01.10-18.35.16:220][176]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' was aborted.
+[2020.01.10-18.35.16:220][176]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' was aborted.
+[2020.01.10-18.35.16:220][176]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' was aborted.
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.01.10-18.35.16:220][176]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.01.10-18.35.16:221][176]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.01.10-18.35.16:228][176]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.01.10-18.35.16:229][176]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.01.10-18.35.16:284][176]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.01.10-18.35.16:291][176]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.01.10-18.35.16:292][176]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.01.10-18.35.16:462][176]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.01.10-18.35.16:463][176]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.01.10-18.35.16:464][176]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.01.10-18.35.16:565][176]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.01.10-18.35.16:666][176]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.01.10-18.35.16:667][176]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.01.10-18.35.16:669][176]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.01.10-18.35.16:670][176]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.01.10-18.35.16:670][176]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.01.10-18.35.16:670][176]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.01.10-18.35.16:670][176]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.01.10-18.35.16:670][176]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.01.10-18.35.16:878][176]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.01.10-18.35.16:878][176]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.10-18.35.16:878][176]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.01.10-18.35.16:878][176]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.01.10-18.35.16:882][176]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.01.10-18.35.16:883][176]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.01.10-18.35.16:941][176]LogDerivedDataCache: Shutdown
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.01.10-18.35.16:941][176]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.10-18.35.16:942][176]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.10-18.35.16:942][176]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.10-18.35.16:942][176]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.10-18.35.16:942][176]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF9AE9073-46A3-B966-6A60-8AB58C7D5A61%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=96c22fcc4a13df48a702c0b25280ec08%7C5727c0aceda34a2a8745d0ddd25f12e5%7C2451b241-4f41-47a9-baf2-594cddf6b242&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.10-18.35.16:949][176]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.10-18.35.16:950][176]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.10-18.35.16:953][176]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.10-18.35.16:955][176]LogExit: Exiting.
+[2020.01.10-18.35.16:973][176]Log file closed, 01/10/20 19:35:16
