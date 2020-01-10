@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/10/20 17:37:44
 LogInit:Display: Running engine for game: EntregaJuegoUnreal2
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(2026037644) SRandInit(2026037644).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.113070
+=======
+﻿Log file open, 01/10/20 17:34:09
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1828979160) SRandInit(1828979160).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.113584
+>>>>>>> f50e864f62a30f2d90fe8dfea6bcc5804f19b00f
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,6 +29,7 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+<<<<<<< HEAD
 LogInit: Build: ++UE4+Release-4.16-CL-3561208
 LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
 LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
@@ -141,3 +151,5 @@ LogInit: Object subsystem initialized
 [2020.01.10-16.37.55:261][  0]LogInit: FAudioDevice initialized.
 [2020.01.10-16.37.55:294][  0]LogInit: Texture streaming: Enabled
 [2020.01.10-16.37.55:322][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+=======
+>>>>>>> f50e864f62a30f2d90fe8dfea6bcc5804f19b00f
