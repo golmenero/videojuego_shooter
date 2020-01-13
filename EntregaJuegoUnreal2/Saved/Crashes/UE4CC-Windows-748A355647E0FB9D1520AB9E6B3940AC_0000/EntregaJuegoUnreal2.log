@@ -1,0 +1,511 @@
+﻿Log file open, 01/13/20 22:14:25
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1625435521) SRandInit(1625435521).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110535
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.13-21.14.26:681][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-21.14.26:681][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.13-21.14.26:691][  0]LogInit: Computer: DESKTOP-JHFJI5B
+[2020.01.13-21.14.26:691][  0]LogInit: User: DiegoTrapiello
+[2020.01.13-21.14.26:691][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.13-21.14.26:691][  0]LogInit: High frequency timer resolution =3.914061 MHz
+[2020.01.13-21.14.26:691][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.01.13-21.14.26:691][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.13-21.14.26:691][  0]LogMemory: Process Physical Memory: 274.49 MB used, 274.49 MB peak
+[2020.01.13-21.14.26:691][  0]LogMemory: Process Virtual Memory: 262.93 MB used, 262.93 MB peak
+[2020.01.13-21.14.26:691][  0]LogMemory: Physical Memory: 7677.95 MB used,  8665.46 MB free, 16343.42 MB total
+[2020.01.13-21.14.26:691][  0]LogMemory: Virtual Memory: 4757.66 MB used,  8665.46 MB free, 134217728.00 MB total
+[2020.01.13-21.14.26:850][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.13-21.14.26:850][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.13-21.14.28:822][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.13-21.14.29:192][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.13-21.14.29:192][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.13-21.14.29:206][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.13-21.14.29:206][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.13-21.14.29:206][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.13-21.14.29:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.13-21.14.29:238][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.13-21.14.29:238][  0]LogWindows: EnumDisplayDevices:
+[2020.01.13-21.14.29:239][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.13-21.14.29:239][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.13-21.14.29:240][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.13-21.14.29:240][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.13-21.14.29:242][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.13-21.14.29:242][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.13-21.14.29:242][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.13-21.14.29:242][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.13-21.14.29:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.13-21.14.29:326][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.13-21.14.29:346][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.13-21.14.29:349][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Intermediate/Shaders/WorkingDirectory/19188/).
+[2020.01.13-21.14.29:349][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Diego Trapiello/AppData/Local/Temp/UnrealShaderWorkingDir/3D81A3E04C694445C811E09153E2E17D/'.
+[2020.01.13-21.14.29:349][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.13-21.14.31:794][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.13-21.14.31:934][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.13-21.14.32:016][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.13-21.14.32:164][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.13-21.14.32:367][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.13-21.14.32:497][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.13-21.14.32:621][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.13-21.14.32:908][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.13-21.14.33:057][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.13-21.14.33:165][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.13-21.14.33:310][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.13-21.14.33:517][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.13-21.14.33:725][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.13-21.14.33:886][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.13-21.14.34:004][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.13-21.14.34:178][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.13-21.14.34:178][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.13-21.14.34:290][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.13-21.14.34:583][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.13-21.14.34:636][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.13-21.14.34:708][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.13-21.14.34:775][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.13-21.14.34:846][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.13-21.14.35:044][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.13-21.14.35:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.13-21.14.36:252][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.13-21.14.36:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.13-21.14.36:363][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.13-21.14.36:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.13-21.14.36:393][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.13-21.14.36:394][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.13-21.14.36:396][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-21.14.36:397][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-21.14.37:051][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-21.14.37:139][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.13-21.14.37:350][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.13-21.14.37:407][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.13-21.14.37:487][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.13-21.14.37:487][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.13-21.14.37:487][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.13-21.14.38:146][  0]LogNetVersion: EntregaJuegoUnreal2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631086534)
+[2020.01.13-21.14.38:218][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2020.01.13-21.14.38:268][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.025375 seconds
+[2020.01.13-21.14.38:273][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.13-21.14.38:273][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2020.01.13-21.14.38:273][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.13-21.14.38:349][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.13-21.14.44:626][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.13-21.14.44:791][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.13-21.14.46:318][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.13-21.14.47:694][  0]SourceControl: Info Source control is disabled
+[2020.01.13-21.14.47:697][  0]SourceControl: Info Source control is disabled
+[2020.01.13-21.14.47:910][  0]SourceControl: Info Source control is disabled
+[2020.01.13-21.14.48:227][  0]SourceControl: Info Source control is disabled
+[2020.01.13-21.14.49:894][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.13-21.14.50:789][  0]LogEngine: Initializing Engine...
+[2020.01.13-21.14.50:790][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.13-21.14.50:974][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.13-21.14.50:974][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.13-21.14.51:139][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.13-21.14.51:179][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.14.51:354][  0]LogInit: FAudioDevice initialized.
+[2020.01.13-21.14.51:396][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.13-21.14.51:402][  0]LogInit: Texture streaming: Enabled
+[2020.01.13-21.14.51:521][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.13-21.14.51:805][  0]LogInit: Transaction tracking system initialized
+[2020.01.13-21.14.52:217][  0]BlueprintLog: New page: Editor Load
+[2020.01.13-21.14.53:436][  0]LocalizationService: Info Localization service is disabled
+[2020.01.13-21.14.54:355][  0]LogConsoleResponse:Display: 
+[2020.01.13-21.14.54:508][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.13-21.14.54:508][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.13-21.14.54:606][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.03s
+[2020.01.13-21.14.55:983][  0]SourceControl: Info Source control is disabled
+[2020.01.13-21.14.55:984][  0]LightingResults: New page: Lighting Build
+[2020.01.13-21.14.56:036][  0]MapCheck: New page: Map Check
+[2020.01.13-21.14.56:036][  0]LightingResults: New page: Lighting Build
+[2020.01.13-21.14.57:187][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.14.57:199][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-21.14.57:220][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-21.14.57:347][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.122ms to complete.
+[2020.01.13-21.14.57:347][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.364
+[2020.01.13-21.14.57:502][  0]LogCollectionManager: Loaded 0 collections in 0.001953 seconds
+[2020.01.13-21.14.57:593][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' took 0.01s
+[2020.01.13-21.14.57:593][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/DiegoTrapiello/Collections/' took 0.01s
+[2020.01.13-21.14.57:593][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' took 0.01s
+[2020.01.13-21.14.57:593][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.01.13-21.14.57:603][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2329 classes and 491 folders.
+[2020.01.13-21.14.57:681][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.01.13-21.14.57:785][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.01.13-21.14.57:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.01.13-21.14.57:881][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.13-21.14.57:890][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.13-21.14.57:969][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.01.13-21.14.57:970][  0]LogLoad: (Engine Initialization) Total time: 34.13 seconds
+[2020.01.13-21.14.57:970][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
+[2020.01.13-21.14.57:970][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.01.13-21.14.57:970][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.01.13-21.14.58:309][  0]LogOcInput: OculusInput pre-init called
+[2020.01.13-21.14.58:309][  0]LogHMD: Starting GearVRController plugin
+[2020.01.13-21.14.58:343][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.13-21.14.58:344][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-21.14.58:346][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.13-21.14.58:350][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.13-21.14.58:444][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-21.14.58:643][  1]LogRenderer: Reallocating scene render targets to support 604x516 NumSamples 1 (Frame:1).
+[2020.01.13-21.14.58:643][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.32s
+[2020.01.13-21.14.58:654][  1]LogAssetRegistry: Asset discovery search completed in 20.4584 seconds
+[2020.01.13-21.14.58:656][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.13-21.14.58:656][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2020.01.13-21.16.15:927][407]LogRenderer: Reallocating scene render targets to support 764x576 NumSamples 1 (Frame:176).
+[2020.01.13-21.16.17:192][549]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.16.17:252][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.16.17:252][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-21.16.17:253][549]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:16:17 PM)
+[2020.01.13-21.16.17:253][549]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.16.17:286][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033602s)
+[2020.01.13-21.16.17:288][549]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.16.17:288][549]LogPlayLevel: PIE: World Init took: (0.001493s)
+[2020.01.13-21.16.17:288][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035342s)
+[2020.01.13-21.16.17:333][549]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.16.17:404][549]LogInit: FAudioDevice initialized.
+[2020.01.13-21.16.17:447][549]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.16.17:454][549]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.16.17
+[2020.01.13-21.16.17:455][549]LogWorld: Bringing up level for play took: 0.005942
+[2020.01.13-21.16.17:509][549]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2020.01.13-21.16.17:512][549]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.7
+[2020.01.13-21.16.17:513][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.16.25:402][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.16.25:432][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.16.57:201][749]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-21.16.57:319][749]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.01.13-21.16.57:430][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.13-21.16.57:485][749]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.13-21.16.57:849][749]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2020.01.13-21.16.57:878][749]LogRenderer: Reallocating scene render targets to support 1144x576 NumSamples 1 (Frame:1).
+[2020.01.13-21.16.57:878][749]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.18.27:555][332]LogSavePackage: Save=15.29ms
+[2020.01.13-21.18.27:555][332]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Run90C155F34D2CB59E588187BB18646A12.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/Run.uasset'
+[2020.01.13-21.18.27:561][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/Run.uasset
+[2020.01.13-21.19.59:080][ 21]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2020.01.13-21.19.59:650][ 21]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-21.19.59:716][ 21]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.13-21.19.59:872][ 22]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.13-21.20.20:234][748]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2020.01.13-21.20.20:282][748]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2020.01.13-21.20.20:587][748]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ZombieFuerteAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ZombieFuerteAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimNotify_HabilitarMovimiento' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimNotify_DeshabilitarMovimiento' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_TransitionResult_4000D8374D48A606C7941498433950AF' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_BlendSpacePlayer_020AF1764633B57BA9C22895B76A75E4' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_TransitionResult_6217CC1C41541B5029111C852BB87CA4' or package '/Game/Enemigos/ZombieEnanoPack/ZombieFuerteAnimBlueprint'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Velocidad' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Atacando' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_3DEE57C642F4F4FE465654B1FFF8D359' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_31F0BAAA4ECC0FD4821363A25C9D0EDE' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_020AF1764633B57BA9C22895B76A75E4' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_FC0C40034043F66992CBC7A73025BA73' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_80C3C4A94A828D74464AD8B5FE94948D' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_6217CC1C41541B5029111C852BB87CA4' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_4000D8374D48A606C7941498433950AF' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_F532CDF74B645C7F45FAEA807CA37908' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:370][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_ZombieFuerteAnimBlueprint' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimNotify_HabilitarMovimiento' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimNotify_DeshabilitarMovimiento' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_BlendSpacePlayer_020AF1764633B57BA9C22895B76A75E4' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_TransitionResult_4000D8374D48A606C7941498433950AF' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_ZombieFuerteAnimBlueprint_AnimGraphNode_TransitionResult_6217CC1C41541B5029111C852BB87CA4' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ZombieFuerteAnimBlueprint_C_11' or package '/Engine/Transient'.
+[2020.01.13-21.20.26:371][ 41]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ZombieFuerteAnimBlueprint_C_10' or package '/Engine/Transient'.
+[2020.01.13-21.20.29:813][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2020.01.13-21.20.30:016][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2020.01.13-21.20.30:321][274]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.24.57:265][484]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-21.25.06:310][353]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.021
+[2020.01.13-21.25.06:312][353]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemigos/ZombieEnano] ([1] browsable assets)...
+[2020.01.13-21.25.06:323][353]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemigos/ZombieEnano.ZombieEnano]
+[2020.01.13-21.25.06:323][353]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemigos/ZombieEnano]
+[2020.01.13-21.25.06:404][353]LogSavePackage: Save=70.78ms
+[2020.01.13-21.25.06:404][353]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnano_Auto1398CBC11464B59F290430CBB1B72BEBB.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Enemigos/ZombieEnano_Auto1.uasset'
+[2020.01.13-21.25.06:407][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Enemigos/ZombieEnano_Auto1.uasset
+[2020.01.13-21.25.06:409][353]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint] ([1] browsable assets)...
+[2020.01.13-21.25.06:418][353]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.ZombieEnanoAnimBlueprint]
+[2020.01.13-21.25.06:418][353]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint]
+[2020.01.13-21.25.06:501][353]LogSavePackage: Save=72.85ms
+[2020.01.13-21.25.06:501][353]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprint_Auto17F225B784C289FC736DB4C89E37404BF.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint_Auto1.uasset'
+[2020.01.13-21.25.06:504][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Autosaves/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint_Auto1.uasset
+[2020.01.13-21.25.06:504][353]LogFileHelpers: Auto-saving content packages took 0.194
+[2020.01.13-21.26.12:923][507]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2020.01.13-21.26.12:955][507]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2020.01.13-21.26.13:229][508]LogRenderer: Reallocating scene render targets to support 1144x888 NumSamples 1 (Frame:1).
+[2020.01.13-21.26.16:677][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2020.01.13-21.26.16:725][781]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2020.01.13-21.26.17:002][781]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.26.19:209][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2020.01.13-21.26.19:431][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2020.01.13-21.26.19:762][937]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.26.57:671][923]BlueprintLog: New page: Compile ZombieEnanoAnimBlueprint
+[2020.01.13-21.26.57:687][923]LogBlueprint:Warning: [Compiler ZombieEnanoAnimBlueprint] Warning  Atacando to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.26.57:687][923]LogBlueprint:Warning: [Compiler ZombieEnanoAnimBlueprint] Warning  Movimiento to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.26.57:786][923]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2020.01.13-21.26.57:786][923]BlueprintEditorCompileResults:Warning: Warning  Atacando to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.26.57:786][923]BlueprintEditorCompileResults:Warning: Warning  Movimiento to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.26.57:786][923]LogBlueprint:Warning: [Compiler ZombieEnanoAnimBlueprint] Warning [0753.95] Compile of ZombieEnanoAnimBlueprint successful, but with 2 Warning(s) [in 115 ms] (/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.ZombieEnanoAnimBlueprint)
+[2020.01.13-21.26.58:211][946]LogSavePackage: Save=77.98ms
+[2020.01.13-21.26.58:211][946]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprintF24746624D181DE7B0535F805B6F9D31.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset'
+[2020.01.13-21.26.58:218][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset
+[2020.01.13-21.27.04:961][483]LogSavePackage: Save=70.38ms
+[2020.01.13-21.27.04:961][483]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprintFEABE41F42601C1DB363A68E39C695B0.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset'
+[2020.01.13-21.27.04:964][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset
+[2020.01.13-21.27.29:357][600]BlueprintLog: New page: Compile ZombieEnanoAnimBlueprint
+[2020.01.13-21.27.29:373][600]LogBlueprint:Warning: [Compiler ZombieEnanoAnimBlueprint] Warning  Movimiento to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.27.29:469][600]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2020.01.13-21.27.29:469][600]BlueprintEditorCompileResults:Warning: Warning  Movimiento to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.27.29:469][600]LogBlueprint:Warning: [Compiler ZombieEnanoAnimBlueprint] Warning [0785.63] Compile of ZombieEnanoAnimBlueprint successful, but with 1 Warning(s) [in 111 ms] (/Game/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.ZombieEnanoAnimBlueprint)
+[2020.01.13-21.27.30:164][649]LogSavePackage: Save=83.58ms
+[2020.01.13-21.27.30:164][649]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprintCB6BDC194541B56C54DBC1947F58ED57.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset'
+[2020.01.13-21.27.30:170][649]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset
+[2020.01.13-21.27.42:008][633]BlueprintLog: New page: Compile ZombieEnanoAnimBlueprint
+[2020.01.13-21.27.42:116][633]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2020.01.13-21.27.42:519][653]LogSavePackage: Save=88.53ms
+[2020.01.13-21.27.42:519][653]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprint944118444A2A875F8BD7FBB424286C05.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset'
+[2020.01.13-21.27.42:525][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset
+[2020.01.13-21.28.01:599][306]BlueprintLog: New page: Compile ZombieEnanoAnimBlueprint
+[2020.01.13-21.28.02:233][332]LogSavePackage: Save=93.06ms
+[2020.01.13-21.28.02:233][332]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnanoAnimBlueprint74F4D9924A0339E3242B599DD0B33113.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset'
+[2020.01.13-21.28.02:239][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnanoPack/ZombieEnanoAnimBlueprint.uasset
+[2020.01.13-21.28.06:214][684]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.28.06:232][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.06:232][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-21.28.06:232][684]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:28:06 PM)
+[2020.01.13-21.28.06:232][684]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.28.06:258][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025758s)
+[2020.01.13-21.28.06:259][684]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.28.06:259][684]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2020.01.13-21.28.06:260][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027172s)
+[2020.01.13-21.28.06:310][684]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.28.06:381][684]LogInit: FAudioDevice initialized.
+[2020.01.13-21.28.06:415][684]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.28.06:420][684]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.28.06
+[2020.01.13-21.28.06:421][684]LogWorld: Bringing up level for play took: 0.004182
+[2020.01.13-21.28.06:423][684]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.389
+[2020.01.13-21.28.06:423][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.12:290][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.12:324][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.18:592][ 29]Cmd: TRANSACTION UNDO
+[2020.01.13-21.28.18:592][ 29]LogEditorTransaction: Undo Create Actors
+[2020.01.13-21.28.20:391][162]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.28.20:407][162]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.20:407][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-21.28.20:407][162]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:28:20 PM)
+[2020.01.13-21.28.20:407][162]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.28.20:430][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022465s)
+[2020.01.13-21.28.20:430][162]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.28.20:431][162]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2020.01.13-21.28.20:431][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023839s)
+[2020.01.13-21.28.20:483][162]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.28.20:550][162]LogInit: FAudioDevice initialized.
+[2020.01.13-21.28.20:586][162]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.28.20:592][162]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.28.20
+[2020.01.13-21.28.20:593][162]LogWorld: Bringing up level for play took: 0.005296
+[2020.01.13-21.28.20:596][162]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.217
+[2020.01.13-21.28.20:596][162]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.23:027][443]LogBlueprintUserMessages: [ZombieEnano_70] ATACANDOOOOOOOOOOOO
+[2020.01.13-21.28.28:062][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.28.28:099][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.29.21:718][346]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2020.01.13-21.29.21:905][346]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2020.01.13-21.29.22:153][346]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_12' or package '/Engine/Transient'.
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ZombieEnanoAnimBlueprint_Child_C_2' or package '/Engine/Transient'.
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ZombieEnanoAnimBlueprint_Child_C_3' or package '/Engine/Transient'.
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ZombieEnanoAnimBlueprint_Child_C_37' or package '/Engine/Transient'.
+[2020.01.13-21.29.37:092][524]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ZombieEnanoAnimBlueprint_Child_C_36' or package '/Engine/Transient'.
+[2020.01.13-21.30.15:370][942]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_7.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2020.01.13-21.30.15:577][942]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_7.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2020.01.13-21.30.15:854][942]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.30.37:273][634]BlueprintLog: New page: Compile ZombieFuerteAnimBlueprint
+[2020.01.13-21.30.37:877][660]LogSavePackage: Save=71.03ms
+[2020.01.13-21.30.37:877][660]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerteAnimBlueprint1F1487A14E30B6F8D17CD0A3AA0B299A.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset'
+[2020.01.13-21.30.37:890][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset
+[2020.01.13-21.31.03:944][992]BlueprintLog: New page: Compile ZombieFuerteAnimBlueprint
+[2020.01.13-21.31.03:958][992]LogBlueprint:Warning: [Compiler ZombieFuerteAnimBlueprint] Warning  Atacando to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.31.04:057][992]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2020.01.13-21.31.04:057][992]BlueprintEditorCompileResults:Warning: Warning  Atacando to Muriendo  will never be taken, please connect something to  Can Enter Transition
+[2020.01.13-21.31.04:058][992]LogBlueprint:Warning: [Compiler ZombieFuerteAnimBlueprint] Warning [1000.22] Compile of ZombieFuerteAnimBlueprint successful, but with 1 Warning(s) [in 113 ms] (/Game/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.ZombieFuerteAnimBlueprint)
+[2020.01.13-21.31.04:427][ 12]LogSavePackage: Save=82.28ms
+[2020.01.13-21.31.04:427][ 12]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerteAnimBlueprintDB37E77548E2B031941B81AAF20BAAC7.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset'
+[2020.01.13-21.31.04:434][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset
+[2020.01.13-21.31.15:823][ 11]BlueprintLog: New page: Compile ZombieFuerteAnimBlueprint
+[2020.01.13-21.31.15:941][ 11]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2020.01.13-21.31.16:280][ 28]LogSavePackage: Save=86.62ms
+[2020.01.13-21.31.16:280][ 28]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerteAnimBlueprint7786882E4FB29E8261E049B2FBD87D4C.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset'
+[2020.01.13-21.31.16:287][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset
+[2020.01.13-21.31.27:055][906]BlueprintLog: New page: Compile ZombieFuerteAnimBlueprint
+[2020.01.13-21.31.27:597][928]LogSavePackage: Save=85.35ms
+[2020.01.13-21.31.27:597][928]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerteAnimBlueprint143C89CE4B9DF00948A2D883B0BD951A.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset'
+[2020.01.13-21.31.27:603][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuertePack/ZombieFuerteAnimBlueprint.uasset
+[2020.01.13-21.31.31:061][220]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.31.31:077][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.31.31:077][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-21.31.31:077][220]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:31:31 PM)
+[2020.01.13-21.31.31:077][220]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.31.31:098][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020825s)
+[2020.01.13-21.31.31:099][220]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.31.31:099][220]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2020.01.13-21.31.31:099][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021900s)
+[2020.01.13-21.31.31:152][220]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.31.31:220][220]LogInit: FAudioDevice initialized.
+[2020.01.13-21.31.31:250][220]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.31.31:255][220]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.31.31
+[2020.01.13-21.31.31:256][220]LogWorld: Bringing up level for play took: 0.004100
+[2020.01.13-21.31.31:258][220]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.446
+[2020.01.13-21.31.31:259][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.31.38:085][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.31.38:117][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.31.42:094][443]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2020.01.13-21.31.42:138][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2020.01.13-21.31.42:424][443]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.31.53:672][440]BlueprintLog: New page: Compile ZombieFuerte
+[2020.01.13-21.31.54:632][496]LogSavePackage: Save=74.99ms
+[2020.01.13-21.31.54:632][496]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerte048BE99E4EC6FF6D044BAC94C3DB9F80.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuerte.uasset'
+[2020.01.13-21.31.54:638][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuerte.uasset
+[2020.01.13-21.32.02:928][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.Actor_9.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2020.01.13-21.32.02:975][179]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.Actor_9.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2020.01.13-21.32.03:266][179]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.32.10:483][758]BlueprintLog: New page: Compile ZombieEnano
+[2020.01.13-21.32.10:931][777]LogSavePackage: Save=86.07ms
+[2020.01.13-21.32.10:932][777]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieEnano0DADBE0745ECF8910A7F2D9D5824B824.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnano.uasset'
+[2020.01.13-21.32.10:937][777]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieEnano.uasset
+[2020.01.13-21.32.12:223][903]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.32.12:241][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.12:241][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-21.32.12:241][903]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:32:12 PM)
+[2020.01.13-21.32.12:242][903]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.32.12:266][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024342s)
+[2020.01.13-21.32.12:267][903]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.32.12:267][903]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2020.01.13-21.32.12:267][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025612s)
+[2020.01.13-21.32.12:317][903]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.32.12:382][903]LogInit: FAudioDevice initialized.
+[2020.01.13-21.32.12:416][903]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.32.12:421][903]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.32.12
+[2020.01.13-21.32.12:422][903]LogWorld: Bringing up level for play took: 0.004197
+[2020.01.13-21.32.12:424][903]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.388
+[2020.01.13-21.32.12:425][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.14:776][181]LogBlueprintUserMessages: [ZombieEnano_70] ATACANDOOOOOOOOOOOO
+[2020.01.13-21.32.25:703][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.25:739][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.30:504][884]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-21.32.30:524][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.30:524][884]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.13-21.32.30:524][884]LogPlayLevel: [PlayLevel] Compiling ZombieFuerte before play...
+[2020.01.13-21.32.30:638][884]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2020.01.13-21.32.30:638][884]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 11:32:30 PM)
+[2020.01.13-21.32.30:638][884]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-21.32.30:658][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020723s)
+[2020.01.13-21.32.30:659][884]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-21.32.30:659][884]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2020.01.13-21.32.30:659][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021825s)
+[2020.01.13-21.32.30:707][884]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.13-21.32.30:776][884]LogInit: FAudioDevice initialized.
+[2020.01.13-21.32.30:807][884]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-21.32.30:812][884]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-22.32.30
+[2020.01.13-21.32.30:813][884]LogWorld: Bringing up level for play took: 0.004673
+[2020.01.13-21.32.30:816][884]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.004
+[2020.01.13-21.32.30:817][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.32:469][ 74]LogBlueprintUserMessages: [ZombieEnano_70] ATACANDOOOOOOOOOOOO
+[2020.01.13-21.32.38:898][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.32.38:930][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-21.33.10:318][504]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_10.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2020.01.13-21.33.10:512][504]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_10.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2020.01.13-21.33.10:756][504]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.13-21.33.13:423][730]LogUObjectBase:Warning: Object is not registered
+[2020.01.13-21.33.14:193][730]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.770 s
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: === Handled ensure: ===
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: 
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: Stack: 
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B5E2B6
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007290B8C2
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072921E86
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000049F07556
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000043BED27B
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000432924AA
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000431372CC
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000004313A6D9
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000043258035
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004AEBDB57
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004AEC4B61
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004B0E48D3
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004AF1F604
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004AEF77FC
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004AEE814C
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B515B0
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B3B7D1
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B533DB
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B37B22
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: USER32.dll!0x00000000C9147281
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: USER32.dll!0x00000000C9146C53
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072B53CE6
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor.exe!0x00000000E53FDB44
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor.exe!0x00000000E53EF0B0
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor.exe!0x00000000E53EF12A
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor.exe!0x00000000E5400CF9
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: UE4Editor.exe!0x00000000E54025F7
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: KERNEL32.DLL!0x00000000C9384034
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: ntdll.dll!0x00000000CA493691
+[2020.01.13-21.33.14:193][730]LogOutputDevice:Error: 
+[2020.01.13-21.33.14:201][730]LogStats:                SubmitErrorReport -  0.000 s
