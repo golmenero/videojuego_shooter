@@ -1,0 +1,679 @@
+﻿Log file open, 01/14/20 23:10:17
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(263262602) SRandInit(263262603).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114462
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.14-22.10.17:482][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.14-22.10.17:482][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.14-22.10.17:495][  0]LogInit: Computer: DESKTOP-VCH55FJ
+[2020.01.14-22.10.17:495][  0]LogInit: User: CarlosGómez
+[2020.01.14-22.10.17:495][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.01.14-22.10.17:495][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.14-22.10.17:496][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.01.14-22.10.17:496][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.14-22.10.17:496][  0]LogMemory: Process Physical Memory: 275.54 MB used, 275.54 MB peak
+[2020.01.14-22.10.17:496][  0]LogMemory: Process Virtual Memory: 267.38 MB used, 267.38 MB peak
+[2020.01.14-22.10.17:496][  0]LogMemory: Physical Memory: 5154.43 MB used,  11179.28 MB free, 16333.70 MB total
+[2020.01.14-22.10.17:496][  0]LogMemory: Virtual Memory: 4781.21 MB used,  11179.28 MB free, 134217728.00 MB total
+[2020.01.14-22.10.17:570][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.14-22.10.17:571][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.14-22.10.18:425][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.14-22.10.18:500][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.01.14-22.10.18:500][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.14-22.10.18:501][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.14-22.10.18:501][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.14-22.10.18:501][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.14-22.10.18:508][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.14-22.10.18:508][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.14-22.10.18:508][  0]LogWindows: EnumDisplayDevices:
+[2020.01.14-22.10.18:508][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.01.14-22.10.18:509][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2020.01.14-22.10.18:509][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.14-22.10.18:509][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.14-22.10.18:509][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.14-22.10.18:509][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.01.14-22.10.18:509][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.14-22.10.18:509][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.14-22.10.18:509][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.14-22.10.18:557][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.14-22.10.18:568][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.14-22.10.18:570][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Intermediate/Shaders/WorkingDirectory/7060/).
+[2020.01.14-22.10.18:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos Gómez/AppData/Local/Temp/UnrealShaderWorkingDir/458DB92A45990EBBA2376D9BF62460E7/'.
+[2020.01.14-22.10.18:570][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.14-22.10.19:523][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.14-22.10.19:583][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.14-22.10.19:635][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.14-22.10.19:699][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.14-22.10.19:752][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.14-22.10.19:806][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.14-22.10.19:863][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.14-22.10.19:916][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.14-22.10.19:961][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.14-22.10.20:013][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.14-22.10.20:064][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.14-22.10.20:115][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.14-22.10.20:165][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.14-22.10.20:216][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.14-22.10.20:278][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.14-22.10.20:389][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.14-22.10.20:389][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.14-22.10.20:429][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.14-22.10.20:525][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.14-22.10.20:556][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.14-22.10.20:619][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.14-22.10.20:670][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.14-22.10.20:721][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.14-22.10.20:774][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.14-22.10.20:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.14-22.10.21:327][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.14-22.10.21:410][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.14-22.10.21:425][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.14-22.10.21:438][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.14-22.10.21:447][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.14-22.10.21:447][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.14-22.10.21:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.14-22.10.21:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.14-22.10.21:788][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.14-22.10.21:870][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.14-22.10.22:020][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.14-22.10.22:069][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.14-22.10.22:119][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.14-22.10.22:119][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.14-22.10.22:119][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.14-22.10.22:631][  0]LogNetVersion: EntregaJuegoUnreal2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631086534)
+[2020.01.14-22.10.22:696][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2020.01.14-22.10.22:741][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.019310 seconds
+[2020.01.14-22.10.22:747][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.14-22.10.22:747][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2020.01.14-22.10.22:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.14-22.10.22:820][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.14-22.10.24:667][  0]LogWmfMedia: Failed to load mf.dll
+[2020.01.14-22.10.24:667][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2020.01.14-22.10.24:716][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2020.01.14-22.10.24:717][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2020.01.14-22.10.24:717][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2020.01.14-22.10.25:186][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.14-22.10.25:229][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.14-22.10.25:785][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.14-22.10.26:175][  0]SourceControl: Info Source control is disabled
+[2020.01.14-22.10.26:176][  0]SourceControl: Info Source control is disabled
+[2020.01.14-22.10.26:225][  0]SourceControl: Info Source control is disabled
+[2020.01.14-22.10.26:275][  0]SourceControl: Info Source control is disabled
+[2020.01.14-22.10.26:981][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.14-22.10.27:599][  0]LogEngine: Initializing Engine...
+[2020.01.14-22.10.27:600][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.14-22.10.27:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.14-22.10.27:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.14-22.10.27:901][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.14-22.10.27:932][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.14-22.10.27:949][  0]LogInit: FAudioDevice initialized.
+[2020.01.14-22.10.28:001][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.14-22.10.28:016][  0]LogInit: Texture streaming: Enabled
+[2020.01.14-22.10.28:119][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.14-22.10.28:361][  0]LogInit: Transaction tracking system initialized
+[2020.01.14-22.10.28:684][  0]BlueprintLog: New page: Editor Load
+[2020.01.14-22.10.29:676][  0]LocalizationService: Info Localization service is disabled
+[2020.01.14-22.10.30:390][  0]LogConsoleResponse:Display: 
+[2020.01.14-22.10.30:532][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.14-22.10.30:532][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.14-22.10.31:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.02s
+[2020.01.14-22.10.31:582][  0]SourceControl: Info Source control is disabled
+[2020.01.14-22.10.31:582][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.14-22.10.31:583][  0]LightingResults: New page: Lighting Build
+[2020.01.14-22.10.31:625][  0]MapCheck: New page: Map Check
+[2020.01.14-22.10.31:625][  0]LightingResults: New page: Lighting Build
+[2020.01.14-22.10.32:719][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.14-22.10.32:732][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.14-22.10.32:751][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.14-22.10.32:825][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.008ms to complete.
+[2020.01.14-22.10.32:825][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.243
+[2020.01.14-22.10.32:970][  0]LogCollectionManager: Loaded 0 collections in 0.001681 seconds
+[2020.01.14-22.10.33:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' took 0.01s
+[2020.01.14-22.10.33:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' took 0.01s
+[2020.01.14-22.10.33:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' took 0.01s
+[2020.01.14-22.10.33:053][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.14-22.10.33:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2020.01.14-22.10.33:133][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.14-22.10.33:170][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.14-22.10.33:215][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.14-22.10.33:254][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.14-22.10.33:259][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.14-22.10.33:261][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.14-22.10.33:266][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.14-22.10.33:341][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2020.01.14-22.10.33:499][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.14-22.10.33:569][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.14-22.10.33:570][  0]LogLoad: (Engine Initialization) Total time: 17.78 seconds
+[2020.01.14-22.10.33:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2020.01.14-22.10.33:570][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.14-22.10.33:909][  0]LogOcInput: OculusInput pre-init called
+[2020.01.14-22.10.33:909][  0]LogHMD: Starting GearVRController plugin
+[2020.01.14-22.10.33:943][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.14-22.10.33:978][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.14-22.10.34:243][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.32s
+[2020.01.14-22.10.34:253][  1]LogAssetRegistry: Asset discovery search completed in 11.5795 seconds
+[2020.01.14-22.10.34:256][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.14-22.10.34:256][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2020.01.14-22.10.48:450][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/Standard_1'
+[2020.01.14-22.10.48:450][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/Standard_1' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/ak47.uasset.
+[2020.01.14-22.10.48:450][436]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Ak47/ak47 : Can't find file for asset. /Game/cha_unity/Ak47/Texturas/Standard_1
+[2020.01.14-22.10.48:450][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/Standard_1'
+[2020.01.14-22.10.48:450][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/Standard_1' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/ak47.uasset.
+[2020.01.14-22.10.48:451][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/Standard_1'
+[2020.01.14-22.10.48:451][436]LoadErrors: Info Failed to load /Game/cha_unity/Ak47/Texturas/Standard_1.Standard_1 Referenced by ak47
+[2020.01.14-22.10.48:451][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/Standard_1' while loading NULL.
+[2020.01.14-22.10.48:493][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/color_bmp'
+[2020.01.14-22.10.48:493][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/color_bmp' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/Texturas/Standard_1.uasset.
+[2020.01.14-22.10.48:494][436]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Ak47/Texturas/Standard_1 : Can't find file for asset. /Game/cha_unity/Ak47/Texturas/color_bmp
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/normal'
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/normal' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/Texturas/Standard_1.uasset.
+[2020.01.14-22.10.48:494][436]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Ak47/Texturas/Standard_1 : Can't find file for asset. /Game/cha_unity/Ak47/Texturas/normal
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/color_bmp'
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/color_bmp' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/Texturas/Standard_1.uasset.
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/normal'
+[2020.01.14-22.10.48:494][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/normal' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Ak47/Texturas/Standard_1.uasset.
+[2020.01.14-22.10.48:495][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/color_bmp'
+[2020.01.14-22.10.48:495][436]LoadErrors: Info Failed to load /Game/cha_unity/Ak47/Texturas/color_bmp.color_bmp Referenced by MaterialExpressionTextureSample_3
+[2020.01.14-22.10.48:495][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/color_bmp' while loading NULL.
+[2020.01.14-22.10.48:495][436]LogLinker:Warning: Can't find file '/Game/cha_unity/Ak47/Texturas/normal'
+[2020.01.14-22.10.48:495][436]LoadErrors: Info Failed to load /Game/cha_unity/Ak47/Texturas/normal.normal Referenced by MaterialExpressionTextureSample_4
+[2020.01.14-22.10.48:495][436]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Ak47/Texturas/normal' while loading NULL.
+[2020.01.14-22.10.48:496][436]LogMaterial: Missing cached shader map for material Standard_1, compiling. 
+[2020.01.14-22.10.48:497][436]LogMaterial:Warning: Failed to compile Material /Game/Estructuras/cha_unity/Ak47/Texturas/Standard_1.Standard_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2020.01.14-22.10.48:497][436]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.01.14-22.10.49:881][436]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/leaves'
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/leaves' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Arboles/Tree_FBX.uasset.
+[2020.01.14-22.11.13:077][175]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Arboles/Tree_FBX : Can't find file for asset. /Game/cha_unity/Arboles/Texturas/leaves
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/trunk'
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/trunk' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Arboles/Tree_FBX.uasset.
+[2020.01.14-22.11.13:077][175]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Arboles/Tree_FBX : Can't find file for asset. /Game/cha_unity/Arboles/Texturas/trunk
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/leaves'
+[2020.01.14-22.11.13:077][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/leaves' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Arboles/Tree_FBX.uasset.
+[2020.01.14-22.11.13:078][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/trunk'
+[2020.01.14-22.11.13:078][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/trunk' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Arboles/Tree_FBX.uasset.
+[2020.01.14-22.11.13:079][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/trunk'
+[2020.01.14-22.11.13:079][175]LoadErrors: Info Failed to load /Game/cha_unity/Arboles/Texturas/trunk.trunk Referenced by Tree_FBX
+[2020.01.14-22.11.13:079][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/trunk' while loading NULL.
+[2020.01.14-22.11.13:079][175]LogLinker:Warning: Can't find file '/Game/cha_unity/Arboles/Texturas/leaves'
+[2020.01.14-22.11.13:079][175]LoadErrors: Info Failed to load /Game/cha_unity/Arboles/Texturas/leaves.leaves Referenced by Tree_FBX
+[2020.01.14-22.11.13:080][175]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Arboles/Texturas/leaves' while loading NULL.
+[2020.01.14-22.11.13:080][175]LogStaticMesh: Building static mesh Tree_FBX...
+[2020.01.14-22.11.15:497][175]LogStaticMesh: Built static mesh [2.42s] /Game/Estructuras/cha_unity/Arboles/Tree_FBX.Tree_FBX
+[2020.01.14-22.11.16:796][175]LogActorFactory: Actor Factory created Tree_FBX
+[2020.01.14-22.11.16:819][175]LogActorFactory: Actor Factory created Tree_FBX
+[2020.01.14-22.11.16:845][175]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.01.14-22.11.17:968][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.01.14-22.11.18:884][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_FBX)
+[2020.01.14-22.11.32:189][919]LogSavePackage: Save=235.03ms
+[2020.01.14-22.11.32:189][919]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapBDCA354F45B8D6E127BAB5ACC91318E2.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.14-22.11.32:192][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.14-22.11.32:591][919]LogSavePackage: Save=333.37ms
+[2020.01.14-22.11.32:591][919]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData73BEB7FD4A58FD1A35FB71A1BF8BD2D3.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.14-22.11.32:593][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.14-22.11.33:164][985]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.14-22.11.33:315][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.14-22.11.33:315][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.14-22.11.33:316][985]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2020, 12:11:33 AM)
+[2020.01.14-22.11.33:316][985]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.14-22.11.33:337][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021496s)
+[2020.01.14-22.11.33:338][985]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.14-22.11.33:338][985]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2020.01.14-22.11.33:338][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022440s)
+[2020.01.14-22.11.33:372][985]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.14-22.11.33:382][985]LogInit: FAudioDevice initialized.
+[2020.01.14-22.11.33:422][985]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.14-22.11.33:427][985]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.14-23.11.33
+[2020.01.14-22.11.33:428][985]LogWorld: Bringing up level for play took: 0.003749
+[2020.01.14-22.11.33:471][985]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2020.01.14-22.11.33:475][985]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.687
+[2020.01.14-22.11.33:475][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.14-22.11.36:567][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.14-22.11.36:620][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.14-22.11.44:411][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo'
+[2020.01.14-22.11.44:411][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:411][141]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Dragon/ChaDragon : Can't find file for asset. /Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset'
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:412][141]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Dragon/ChaDragon : Can't find file for asset. /Game/cha_unity/Dragon/ChaDragon_PhysicsAsset
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_Skeleton'
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_Skeleton' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:412][141]LoadErrors:Error: Error /Game/Estructuras/cha_unity/Dragon/ChaDragon : Can't find file for asset. /Game/cha_unity/Dragon/ChaDragon_Skeleton
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo'
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset'
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_Skeleton'
+[2020.01.14-22.11.44:412][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_Skeleton' while loading ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/cha_unity/Dragon/ChaDragon.uasset.
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_Skeleton'
+[2020.01.14-22.11.44:413][141]LoadErrors: Info Failed to load /Game/cha_unity/Dragon/ChaDragon_Skeleton.ChaDragon_Skeleton Referenced by ChaDragon
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_Skeleton' while loading NULL.
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset'
+[2020.01.14-22.11.44:413][141]LoadErrors: Info Failed to load /Game/cha_unity/Dragon/ChaDragon_PhysicsAsset.ChaDragon_PhysicsAsset Referenced by ChaDragon
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/ChaDragon_PhysicsAsset' while loading NULL.
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo'
+[2020.01.14-22.11.44:413][141]LoadErrors: Info Failed to load /Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo.cha_material_dragon_cuerpo Referenced by ChaDragon
+[2020.01.14-22.11.44:413][141]LogLinker:Warning: Can't find file for asset '/Game/cha_unity/Dragon/Texturas/cha_material_dragon_cuerpo' while loading NULL.
+[2020.01.14-22.11.46:453][141]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2020.01.14-22.11.48:560][141]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:894][181]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:902][182]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:911][183]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:919][184]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:928][185]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:937][186]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:947][187]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:955][188]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:963][189]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:972][190]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:980][191]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:988][192]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.48:997][193]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:005][194]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:014][195]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:022][196]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:030][197]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:038][198]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:047][199]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:055][200]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:063][201]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:072][202]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:080][203]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:089][204]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:097][205]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:106][206]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:116][207]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:126][208]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:134][209]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:143][210]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:151][211]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:160][212]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:168][213]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:176][214]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:185][215]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:193][216]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:202][217]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:210][218]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:218][219]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:226][220]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:235][221]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:243][222]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:251][223]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:260][224]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:268][225]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:276][226]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:285][227]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:293][228]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:301][229]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:310][230]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:318][231]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:326][232]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:335][233]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:343][234]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:351][235]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:360][236]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:368][237]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:376][238]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:385][239]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:393][240]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:401][241]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:410][242]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:418][243]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:426][244]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:435][245]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:443][246]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:452][247]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:460][248]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:468][249]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:476][250]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:485][251]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:493][252]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:502][253]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:510][254]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:518][255]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:527][256]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:535][257]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:543][258]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:551][259]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:560][260]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:568][261]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:576][262]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.49:585][263]LogAnimation:Warning: SkeletalMesh ChaDragon has no skeleton. This needs to fixed before an animation can be set
+[2020.01.14-22.11.57:856][917]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.14-22.11.58:032][918]Cmd: QUIT_EDITOR
+[2020.01.14-22.11.58:908][918]LogExit: Preparing to exit.
+[2020.01.14-22.11.59:395][918]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.14-22.11.59:428][918]LogExit: Editor shut down
+[2020.01.14-22.11.59:437][918]LogExit: Transaction tracking system shut down
+[2020.01.14-22.11.59:523][918]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.14-22.11.59:523][918]LogExit: Object subsystem successfully closed.
+[2020.01.14-22.11.59:553][918]LogD3D11RHI: Shutdown
+[2020.01.14-22.11.59:553][918]LogD3D11RHI: CleanupD3DDevice
+[2020.01.14-22.11.59:649][918]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.14-22.11.59:664][918]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2020.01.14-22.11.59:664][918]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2020.01.14-22.11.59:665][918]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.01.14-22.11.59:665][918]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.01.14-22.11.59:665][918]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.01.14-22.11.59:665][918]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.01.14-22.11.59:665][918]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.01.14-22.11.59:666][918]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' was aborted.
+[2020.01.14-22.11.59:666][918]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' was aborted.
+[2020.01.14-22.11.59:666][918]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' was aborted.
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.01.14-22.11.59:666][918]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.01.14-22.12.00:071][918]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.01.14-22.12.00:072][918]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.01.14-22.12.00:127][918]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.01.14-22.12.00:128][918]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.01.14-22.12.00:164][918]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.01.14-22.12.00:165][918]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.01.14-22.12.00:166][918]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.01.14-22.12.00:266][918]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.01.14-22.12.00:367][918]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.01.14-22.12.00:368][918]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.01.14-22.12.00:370][918]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.01.14-22.12.00:499][918]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.01.14-22.12.00:499][918]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.14-22.12.00:499][918]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.01.14-22.12.00:499][918]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.01.14-22.12.00:503][918]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.01.14-22.12.00:504][918]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.01.14-22.12.01:001][918]LogDerivedDataCache: Shutdown
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.01.14-22.12.01:001][918]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.14-22.12.01:002][918]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.14-22.12.01:002][918]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.14-22.12.01:002][918]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.14-22.12.01:002][918]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D981E6A-41E1-BF33-0B17-42B8A4D24F19%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=96c22fcc4a13df48a702c0b25280ec08%7C5727c0aceda34a2a8745d0ddd25f12e5%7C2451b241-4f41-47a9-baf2-594cddf6b242&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.14-22.12.01:029][918]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.14-22.12.01:030][918]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.14-22.12.01:031][918]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.14-22.12.01:033][918]LogExit: Exiting.
+[2020.01.14-22.12.01:058][918]Log file closed, 01/14/20 23:12:01
