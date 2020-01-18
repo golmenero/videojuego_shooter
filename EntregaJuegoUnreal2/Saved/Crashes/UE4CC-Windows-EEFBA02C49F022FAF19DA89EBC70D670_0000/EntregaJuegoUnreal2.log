@@ -1,0 +1,452 @@
+﻿Log file open, 01/17/20 22:32:14
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-361634052) SRandInit(-361634052).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092081
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.17-21.32.14:687][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.17-21.32.14:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.17-21.32.14:695][  0]LogInit: Computer: DESKTOP-JHFJI5B
+[2020.01.17-21.32.14:695][  0]LogInit: User: DiegoTrapiello
+[2020.01.17-21.32.14:695][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.17-21.32.14:695][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2020.01.17-21.32.14:696][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.01.17-21.32.14:696][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.17-21.32.14:696][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2020.01.17-21.32.14:696][  0]LogMemory: Process Virtual Memory: 263.01 MB used, 263.01 MB peak
+[2020.01.17-21.32.14:696][  0]LogMemory: Physical Memory: 7231.73 MB used,  9111.69 MB free, 16343.42 MB total
+[2020.01.17-21.32.14:696][  0]LogMemory: Virtual Memory: 4757.66 MB used,  9111.69 MB free, 134217728.00 MB total
+[2020.01.17-21.32.14:761][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.17-21.32.14:761][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.17-21.32.15:702][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.17-21.32.15:765][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.17-21.32.15:765][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.17-21.32.15:767][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.17-21.32.15:767][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.17-21.32.15:767][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.17-21.32.15:774][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.17-21.32.15:774][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.17-21.32.15:774][  0]LogWindows: EnumDisplayDevices:
+[2020.01.17-21.32.15:775][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.17-21.32.15:775][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.17-21.32.15:775][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.17-21.32.15:775][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.17-21.32.15:775][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.17-21.32.15:775][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.17-21.32.15:775][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.17-21.32.15:775][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.17-21.32.15:775][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.17-21.32.15:816][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.17-21.32.15:831][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.17-21.32.15:832][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Intermediate/Shaders/WorkingDirectory/8140/).
+[2020.01.17-21.32.15:833][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Diego Trapiello/AppData/Local/Temp/UnrealShaderWorkingDir/7BFD4E544B74C0FBB3E623829BCEEF54/'.
+[2020.01.17-21.32.15:833][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.17-21.32.16:707][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.17-21.32.16:760][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.17-21.32.16:814][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.17-21.32.16:866][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.17-21.32.16:919][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.17-21.32.16:971][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.17-21.32.17:025][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.17-21.32.17:077][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.17-21.32.17:124][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.17-21.32.17:174][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.17-21.32.17:230][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.17-21.32.17:281][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.17-21.32.17:332][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.17-21.32.17:383][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.17-21.32.17:436][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.17-21.32.17:538][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.17-21.32.17:538][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.17-21.32.17:580][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.17-21.32.17:675][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.17-21.32.17:700][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.17-21.32.17:752][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.17-21.32.17:803][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.17-21.32.17:857][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.17-21.32.17:910][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.17-21.32.17:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.17-21.32.18:402][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.17-21.32.18:472][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.17-21.32.18:485][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.17-21.32.18:497][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.17-21.32.18:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.17-21.32.18:505][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.17-21.32.18:506][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.17-21.32.18:506][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.17-21.32.18:827][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.17-21.32.18:889][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.17-21.32.19:040][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.17-21.32.19:086][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.17-21.32.19:150][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.17-21.32.19:150][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.17-21.32.19:150][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.17-21.32.19:656][  0]LogNetVersion: EntregaJuegoUnreal2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631086534)
+[2020.01.17-21.32.19:713][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2020.01.17-21.32.19:755][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.021171 seconds
+[2020.01.17-21.32.19:759][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.17-21.32.19:759][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2020.01.17-21.32.19:759][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.17-21.32.19:818][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.17-21.32.22:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.17-21.32.22:505][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.17-21.32.23:123][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.17-21.32.23:590][  0]SourceControl: Info Source control is disabled
+[2020.01.17-21.32.23:591][  0]SourceControl: Info Source control is disabled
+[2020.01.17-21.32.23:655][  0]SourceControl: Info Source control is disabled
+[2020.01.17-21.32.23:720][  0]SourceControl: Info Source control is disabled
+[2020.01.17-21.32.24:561][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.17-21.32.25:286][  0]LogEngine: Initializing Engine...
+[2020.01.17-21.32.25:287][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.17-21.32.25:441][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.17-21.32.25:441][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.17-21.32.25:576][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.17-21.32.25:612][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.17-21.32.25:762][  0]LogInit: FAudioDevice initialized.
+[2020.01.17-21.32.25:800][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Diego Trapiello/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.17-21.32.25:810][  0]LogInit: Texture streaming: Enabled
+[2020.01.17-21.32.25:896][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.17-21.32.26:137][  0]LogInit: Transaction tracking system initialized
+[2020.01.17-21.32.26:468][  0]BlueprintLog: New page: Editor Load
+[2020.01.17-21.32.27:451][  0]LocalizationService: Info Localization service is disabled
+[2020.01.17-21.32.28:186][  0]LogConsoleResponse:Display: 
+[2020.01.17-21.32.28:306][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.17-21.32.28:306][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.17-21.32.29:484][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.03s
+[2020.01.17-21.32.29:532][  0]SourceControl: Info Source control is disabled
+[2020.01.17-21.32.29:532][  0]LightingResults: New page: Lighting Build
+[2020.01.17-21.32.29:575][  0]MapCheck: New page: Map Check
+[2020.01.17-21.32.29:575][  0]LightingResults: New page: Lighting Build
+[2020.01.17-21.32.31:043][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.17-21.32.31:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.17-21.32.31:084][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.17-21.32.31:213][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.462ms to complete.
+[2020.01.17-21.32.31:213][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.681
+[2020.01.17-21.32.31:335][  0]LogCollectionManager: Loaded 0 collections in 0.001718 seconds
+[2020.01.17-21.32.31:419][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' took 0.01s
+[2020.01.17-21.32.31:419][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/DiegoTrapiello/Collections/' took 0.01s
+[2020.01.17-21.32.31:419][  0]LogFileCache: Scanning file cache for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' took 0.01s
+[2020.01.17-21.32.31:419][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.17-21.32.31:426][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
+[2020.01.17-21.32.31:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.01.17-21.32.31:580][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.01.17-21.32.31:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.01.17-21.32.31:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.17-21.32.31:666][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.17-21.32.31:668][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.17-21.32.31:673][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.17-21.32.31:751][  0]LogRenderer: Reallocating scene render targets to support 764x576 NumSamples 1 (Frame:1).
+[2020.01.17-21.32.31:833][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.17-21.32.31:903][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.01.17-21.32.31:903][  0]LogLoad: (Engine Initialization) Total time: 19.39 seconds
+[2020.01.17-21.32.31:903][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2020.01.17-21.32.31:903][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.01.17-21.32.31:903][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.01.17-21.32.32:243][  0]LogOcInput: OculusInput pre-init called
+[2020.01.17-21.32.32:243][  0]LogHMD: Starting GearVRController plugin
+[2020.01.17-21.32.32:272][  0]LogAssetRegistry: Asset discovery search completed in 12.5810 seconds
+[2020.01.17-21.32.32:274][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.17-21.32.32:274][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2020.01.17-21.32.32:276][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.17-21.32.32:323][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.17-21.32.32:577][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.32s
+[2020.01.17-21.35.22:904][608]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.17-21.35.23:240][608]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2020.01.17-21.35.23:724][608]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.17-21.35.23:780][608]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.17-21.35.30:284][360]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.17-21.35.37:819][241]LogRenderer: Reallocating scene render targets to support 764x696 NumSamples 1 (Frame:1).
+[2020.01.17-21.39.22:300][794]BlueprintLog: New page: Compile ZombieFuerteEspecial
+[2020.01.17-21.39.22:993][821]LogSavePackage: Save=25.71ms
+[2020.01.17-21.39.22:993][821]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/ZombieFuerteEspecial41F072224A8DC3BDAE33488DA7EE5837.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuerteEspecial.uasset'
+[2020.01.17-21.39.22:998][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Enemigos/ZombieFuerteEspecial.uasset
+[2020.01.17-21.39.24:354][970]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.17-21.39.24:424][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.39.24:424][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.17-21.39.24:424][970]PIE: New page: PIE session: FirstPersonExampleMap (Jan 17, 2020, 11:39:24 PM)
+[2020.01.17-21.39.24:424][970]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.17-21.39.24:450][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025791s)
+[2020.01.17-21.39.24:451][970]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.17-21.39.24:451][970]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2020.01.17-21.39.24:451][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027372s)
+[2020.01.17-21.39.24:498][970]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.17-21.39.24:557][970]LogInit: FAudioDevice initialized.
+[2020.01.17-21.39.24:601][970]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.17-21.39.24:608][970]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.17-22.39.24
+[2020.01.17-21.39.24:609][970]LogWorld: Bringing up level for play took: 0.006337
+[2020.01.17-21.39.24:657][970]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2020.01.17-21.39.24:660][970]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.249
+[2020.01.17-21.39.24:660][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.39.24:663][970]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.39.24:663][970]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.39.25:293][ 42]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.26:043][132]LogBlueprintUserMessages: [ZombieSimple_52] atacando
+[2020.01.17-21.39.26:996][246]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 100
+[2020.01.17-21.39.27:055][253]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 100
+[2020.01.17-21.39.27:055][253]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 100
+[2020.01.17-21.39.27:288][281]LogBlueprintUserMessages: [ZombieSpawnerEspecial_38] Daño : 100
+[2020.01.17-21.39.28:058][372]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 100
+[2020.01.17-21.39.28:775][458]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.28:783][459]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.28:791][460]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.29:108][498]LogBlueprintUserMessages: [ZombieSpawner_98] Daño : 100
+[2020.01.17-21.39.29:116][499]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.29:317][523]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] atacando
+[2020.01.17-21.39.31:167][745]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.31:225][752]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.31:283][759]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.31:341][766]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.31:608][798]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 100
+[2020.01.17-21.39.31:633][801]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.31:642][802]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.33:667][ 45]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.36:301][361]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.41:176][946]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.41:693][  8]LogBlueprintUserMessages: [ZombieFuerte_54] atacando
+[2020.01.17-21.39.43:777][258]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.46:377][567]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.46:611][595]LogBlueprintUserMessages: [ZombieFuerte_54] atacando
+[2020.01.17-21.39.48:977][879]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.50:612][ 75]LogBlueprintUserMessages: [ZombieFuerte_54] atacando
+[2020.01.17-21.39.51:578][191]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.39.51:878][227]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 100
+[2020.01.17-21.39.52:044][247]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 100
+[2020.01.17-21.39.52:203][266]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 100
+[2020.01.17-21.39.54:045][487]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.54:244][511]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 100
+[2020.01.17-21.39.54:411][531]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 100
+[2020.01.17-21.39.55:228][629]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.55:369][646]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.55:520][664]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 100
+[2020.01.17-21.39.56:195][745]LogBlueprintUserMessages: [ZombieFuerte_54] atacando
+[2020.01.17-21.40.16:211][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.40.16:242][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.40.34:893][114]BlueprintLog: New page: Compile lKey_SpecialGun
+[2020.01.17-21.40.35:478][157]LogSavePackage: Save=20.13ms
+[2020.01.17-21.40.35:478][157]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/lKey_SpecialGunE4E1549947D5F02DCEEB68BB6E3F2E78.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset'
+[2020.01.17-21.40.35:484][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset
+[2020.01.17-21.40.37:645][402]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.17-21.40.37:665][402]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.40.37:665][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.17-21.40.37:665][402]PIE: New page: PIE session: FirstPersonExampleMap (Jan 17, 2020, 11:40:37 PM)
+[2020.01.17-21.40.37:665][402]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.17-21.40.37:689][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023434s)
+[2020.01.17-21.40.37:689][402]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.17-21.40.37:689][402]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2020.01.17-21.40.37:690][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024388s)
+[2020.01.17-21.40.37:741][402]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.17-21.40.37:797][402]LogInit: FAudioDevice initialized.
+[2020.01.17-21.40.37:830][402]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.17-21.40.37:836][402]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.17-22.40.37
+[2020.01.17-21.40.37:837][402]LogWorld: Bringing up level for play took: 0.005863
+[2020.01.17-21.40.37:840][402]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.931
+[2020.01.17-21.40.37:840][402]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.40.37:842][402]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.40.37:842][402]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.40.39:625][613]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.40.40:150][673]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] atacando
+[2020.01.17-21.40.40:166][675]LogBlueprintUserMessages: [ZombieSimple_52] atacando
+[2020.01.17-21.40.40:383][701]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 150
+[2020.01.17-21.40.41:125][790]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.40.41:142][792]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.40.41:267][807]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.40.41:284][809]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.40.41:558][842]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.40.41:559][842]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.40.41:583][845]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.40.42:250][925]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.42:318][933]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:325][934]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:366][939]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.42:434][947]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:442][948]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:500][955]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.42:583][965]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:642][972]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.42:651][973]LogBlueprintUserMessages: [ZombieSpawnerEspecial_38] 14
+[2020.01.17-21.40.42:652][973]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.40.42:724][982]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.42:808][992]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.40.43:484][ 73]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.43:626][ 90]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.43:761][106]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.43:936][127]LogBlueprintUserMessages: [ZombieSpawnerEspecial_38] Daño : 150
+[2020.01.17-21.40.44:605][207]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.40.44:805][231]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.40.45:689][337]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] atacando
+[2020.01.17-21.40.46:906][483]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.46:906][483]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.47:064][502]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.40.47:399][542]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.40.47:649][572]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.40.52:650][172]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.40.56:054][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.40.56:088][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.41.16:224][800]BlueprintLog: New page: Compile lKey_SpecialGun
+[2020.01.17-21.41.16:617][822]LogSavePackage: Save=19.74ms
+[2020.01.17-21.41.16:617][822]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/lKey_SpecialGunEFBC16C74036EC7022F6649E57E162A5.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset'
+[2020.01.17-21.41.16:622][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset
+[2020.01.17-21.41.46:239][ 88]BlueprintLog: New page: Compile lKey_SpecialGun
+[2020.01.17-21.41.46:919][141]LogSavePackage: Save=19.39ms
+[2020.01.17-21.41.46:919][141]LogSavePackage: Moving '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Saved/lKey_SpecialGun92A4E2D24BA7AEB28CBBDA9D33A6877E.tmp' to '../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset'
+[2020.01.17-21.41.46:924][141]LogSavePackage:Display: Finished SavePackage ../../../../../../Diego Trapiello/Documents/Unreal Projects/videojuego_shooter/EntregaJuegoUnreal2/Content/Llaves/lKey_SpecialGun.uasset
+[2020.01.17-21.41.48:433][306]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.17-21.41.48:451][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.41.48:451][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.17-21.41.48:451][306]PIE: New page: PIE session: FirstPersonExampleMap (Jan 17, 2020, 11:41:48 PM)
+[2020.01.17-21.41.48:451][306]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.17-21.41.48:473][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022423s)
+[2020.01.17-21.41.48:474][306]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.17-21.41.48:474][306]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2020.01.17-21.41.48:474][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023422s)
+[2020.01.17-21.41.48:519][306]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 16 bits per sample (channel mask 0x33)
+[2020.01.17-21.41.48:574][306]LogInit: FAudioDevice initialized.
+[2020.01.17-21.41.48:603][306]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.17-21.41.48:609][306]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.17-22.41.48
+[2020.01.17-21.41.48:611][306]LogWorld: Bringing up level for play took: 0.006281
+[2020.01.17-21.41.48:614][306]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.295
+[2020.01.17-21.41.48:614][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.41.48:616][306]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.41.48:616][306]LogBlueprintUserMessages: [FirstPersonExampleMap_C_1] PUNTOS AÑADIDOS
+[2020.01.17-21.41.49:830][449]LogBlueprintUserMessages: [ZombieEnano_78] atacando
+[2020.01.17-21.41.51:169][609]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:169][609]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:227][616]LogBlueprintUserMessages: [ZombieSimple_52] atacando
+[2020.01.17-21.41.51:311][626]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:312][626]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:327][628]LogBlueprintUserMessages: [ZombieEnano_78] Daño : 150
+[2020.01.17-21.41.51:443][642]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:452][643]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:469][645]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:610][662]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:610][662]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:618][663]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:760][680]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.51:760][680]LogBlueprintUserMessages: [ZombieSimple_52] Daño : 150
+[2020.01.17-21.41.51:936][701]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.52:119][722]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] Daño : 150
+[2020.01.17-21.41.52:261][739]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.52:395][755]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.53:319][866]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.41.53:437][880]LogBlueprintUserMessages: [ZombieSpawnerEspecial_38] 14
+[2020.01.17-21.41.53:438][880]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.41.53:438][880]LogScriptCore:Warning: Script Msg: Attempted to access index 14 from array ArrayPuntosSpawn of length 14!
+[2020.01.17-21.41.53:438][880]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	ZombieSpawner_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ZombieSpawner_98
+	Function /Game/Enemigos/ZombieSpawner.ZombieSpawner_C:ExecuteUbergraph_ZombieSpawner:049B
+[2020.01.17-21.41.53:439][880]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_ZombieSpawner' from node: SpawnActor Zombie Enano in graph: EventGraph in object: ZombieSpawner with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2020.01.17-21.41.53:580][897]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.53:596][899]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.53:647][905]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.41.53:655][906]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.41.53:663][907]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.41.53:737][916]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.53:797][923]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.41.53:879][933]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.53:988][946]LogBlueprintUserMessages: [ZombieSimpleEspecial_37] atacando
+[2020.01.17-21.41.54:013][949]LogBlueprintUserMessages: [ZombieSpawnerEspecial_38] Daño : 150
+[2020.01.17-21.41.54:122][962]LogBlueprintUserMessages: [ZombieSimple_52] atacando
+[2020.01.17-21.41.54:456][  2]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.54:456][  2]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.54:614][ 21]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.54:790][ 42]LogBlueprintUserMessages: [ZombieFuerteEspecial_190] Daño : 150
+[2020.01.17-21.41.54:840][ 48]LogBlueprintUserMessages: [ZombieFuerte_54] Daño : 150
+[2020.01.17-21.41.55:098][ 79]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.41.56:841][288]LogBlueprintUserMessages: [ZombieEnano_C_0] Daño : 150
+[2020.01.17-21.41.56:850][289]LogBlueprintUserMessages: [ZombieEnano_C_0] atacando
+[2020.01.17-21.41.57:150][325]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.41.58:435][479]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.41.59:019][549]LogBlueprintUserMessages: [Gun_Pistol_C_0] Finished
+[2020.01.17-21.42.03:441][ 79]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.42.08:442][679]LogBlueprintUserMessages: [ZombieSpawner_98] 14
+[2020.01.17-21.42.12:096][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.42.12:128][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.17-21.42.57:566][ 91]LogUObjectArray:Warning: Other object in slot
+[2020.01.17-21.42.58:202][ 91]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.637 s
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: === Handled ensure: ===
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: 
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: Stack: 
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293EE2B6
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002919B8C2
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000291B1E86
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000024D17556
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000002424D27B
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000016F024AA
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000016DA72CC
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000016DAA6D9
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000016EC8035
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002852DB57
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000028534B61
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000287548D3
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002858F604
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000285677FC
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002855814C
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293E15B0
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293CB7D1
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293E33DB
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293C7B22
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: USER32.dll!0x0000000073C57281
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: USER32.dll!0x0000000073C56C53
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000293E3CE6
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor.exe!0x00000000312EDB44
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor.exe!0x00000000312DF0B0
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor.exe!0x00000000312DF12A
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor.exe!0x00000000312F0CF9
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: UE4Editor.exe!0x00000000312F25F7
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: KERNEL32.DLL!0x0000000074244034
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: ntdll.dll!0x00000000762D3691
+[2020.01.17-21.42.58:202][ 91]LogOutputDevice:Error: 
+[2020.01.17-21.42.58:205][ 91]LogStats:                SubmitErrorReport -  0.000 s
