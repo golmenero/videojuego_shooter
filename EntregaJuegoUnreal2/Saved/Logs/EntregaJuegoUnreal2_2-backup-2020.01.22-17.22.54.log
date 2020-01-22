@@ -1,0 +1,988 @@
+﻿Log file open, 01/13/20 05:01:40
+LogInit:Display: Running engine for game: EntregaJuegoUnreal2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-828909567) SRandInit(-828909567).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.122593
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.13-04.01.41:064][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-04.01.41:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.13-04.01.41:077][  0]LogInit: Computer: DESKTOP-VCH55FJ
+[2020.01.13-04.01.41:077][  0]LogInit: User: CarlosGómez
+[2020.01.13-04.01.41:077][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.01.13-04.01.41:077][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.13-04.01.41:077][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.01.13-04.01.41:077][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.13-04.01.41:077][  0]LogMemory: Process Physical Memory: 275.27 MB used, 275.28 MB peak
+[2020.01.13-04.01.41:077][  0]LogMemory: Process Virtual Memory: 267.35 MB used, 267.35 MB peak
+[2020.01.13-04.01.41:077][  0]LogMemory: Physical Memory: 6750.83 MB used,  9582.88 MB free, 16333.70 MB total
+[2020.01.13-04.01.41:077][  0]LogMemory: Virtual Memory: 4781.21 MB used,  9582.88 MB free, 134217728.00 MB total
+[2020.01.13-04.01.41:151][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.13-04.01.41:151][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.13-04.01.42:077][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.13-04.01.42:155][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.01.13-04.01.42:155][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.13-04.01.42:157][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.13-04.01.42:157][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.13-04.01.42:157][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.13-04.01.42:164][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.13-04.01.42:164][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.13-04.01.42:164][  0]LogWindows: EnumDisplayDevices:
+[2020.01.13-04.01.42:164][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.01.13-04.01.42:164][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2020.01.13-04.01.42:164][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.13-04.01.42:164][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.01.13-04.01.42:165][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.13-04.01.42:165][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.01.13-04.01.42:165][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.13-04.01.42:165][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.13-04.01.42:165][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.13-04.01.42:212][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.13-04.01.42:223][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.13-04.01.42:226][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Intermediate/Shaders/WorkingDirectory/6544/).
+[2020.01.13-04.01.42:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos Gómez/AppData/Local/Temp/UnrealShaderWorkingDir/0F401547448C546B5930C1B58DEFA094/'.
+[2020.01.13-04.01.42:226][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.13-04.01.43:291][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.13-04.01.43:352][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.13-04.01.43:414][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.13-04.01.43:475][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.13-04.01.43:539][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.13-04.01.43:599][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.13-04.01.43:661][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.13-04.01.43:718][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.13-04.01.43:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.13-04.01.43:837][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.13-04.01.43:895][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.13-04.01.43:959][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.13-04.01.44:017][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.13-04.01.44:076][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.13-04.01.44:135][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.13-04.01.44:265][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.13-04.01.44:265][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.13-04.01.44:310][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.13-04.01.44:411][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.13-04.01.44:446][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.13-04.01.44:498][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.13-04.01.44:554][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.13-04.01.44:610][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.13-04.01.44:671][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.13-04.01.44:671][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.13-04.01.45:202][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.13-04.01.45:290][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.13-04.01.45:291][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.13-04.01.45:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.13-04.01.45:291][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.13-04.01.45:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.13-04.01.45:291][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.13-04.01.45:306][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.13-04.01.45:319][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.13-04.01.45:333][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.13-04.01.45:333][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.13-04.01.45:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-04.01.45:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-04.01.45:664][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-04.01.45:730][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.13-04.01.45:875][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.13-04.01.45:920][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.13-04.01.45:970][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.13-04.01.45:970][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.13-04.01.45:970][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.13-04.01.46:507][  0]LogNetVersion: EntregaJuegoUnreal2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631086534)
+[2020.01.13-04.01.46:573][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2020.01.13-04.01.46:624][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.023585 seconds
+[2020.01.13-04.01.46:630][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.13-04.01.46:630][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2020.01.13-04.01.46:630][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.13-04.01.46:704][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.13-04.01.48:602][  0]LogWmfMedia: Failed to load mf.dll
+[2020.01.13-04.01.48:602][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2020.01.13-04.01.48:652][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2020.01.13-04.01.48:652][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2020.01.13-04.01.48:653][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2020.01.13-04.01.49:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.13-04.01.49:154][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.13-04.01.49:705][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.13-04.01.50:113][  0]SourceControl: Info Source control is disabled
+[2020.01.13-04.01.50:114][  0]SourceControl: Info Source control is disabled
+[2020.01.13-04.01.50:164][  0]SourceControl: Info Source control is disabled
+[2020.01.13-04.01.50:215][  0]SourceControl: Info Source control is disabled
+[2020.01.13-04.01.50:945][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.13-04.01.51:601][  0]LogEngine: Initializing Engine...
+[2020.01.13-04.01.51:602][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.13-04.01.51:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.13-04.01.51:780][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.13-04.01.51:908][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.13-04.01.51:939][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.01.51:955][  0]LogInit: FAudioDevice initialized.
+[2020.01.13-04.01.52:011][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Carlos Gómez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.13-04.01.52:025][  0]LogInit: Texture streaming: Enabled
+[2020.01.13-04.01.52:127][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.13-04.01.52:361][  0]LogInit: Transaction tracking system initialized
+[2020.01.13-04.01.52:685][  0]BlueprintLog: New page: Editor Load
+[2020.01.13-04.01.53:679][  0]LocalizationService: Info Localization service is disabled
+[2020.01.13-04.01.54:393][  0]LogConsoleResponse:Display: 
+[2020.01.13-04.01.54:519][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.13-04.01.54:519][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.13-04.01.55:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.02s
+[2020.01.13-04.01.55:665][  0]SourceControl: Info Source control is disabled
+[2020.01.13-04.01.55:666][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-04.01.55:666][  0]LightingResults: New page: Lighting Build
+[2020.01.13-04.01.55:710][  0]MapCheck: New page: Map Check
+[2020.01.13-04.01.55:710][  0]LightingResults: New page: Lighting Build
+[2020.01.13-04.01.56:527][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.01.56:538][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-04.01.56:554][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-04.01.56:621][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.251ms to complete.
+[2020.01.13-04.01.56:621][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.956
+[2020.01.13-04.01.56:758][  0]LogCollectionManager: Loaded 0 collections in 0.001628 seconds
+[2020.01.13-04.01.56:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' took 0.01s
+[2020.01.13-04.01.56:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' took 0.01s
+[2020.01.13-04.01.56:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' took 0.01s
+[2020.01.13-04.01.56:837][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.13-04.01.56:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2020.01.13-04.01.56:913][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.01.13-04.01.56:949][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.01.13-04.01.56:994][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.01.13-04.01.57:033][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.13-04.01.57:038][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-04.01.57:040][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.13-04.01.57:044][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.13-04.01.57:118][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2020.01.13-04.01.57:210][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.13-04.01.57:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.13-04.01.57:276][  0]LogLoad: (Engine Initialization) Total time: 18.15 seconds
+[2020.01.13-04.01.57:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2020.01.13-04.01.57:276][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.13-04.01.57:616][  0]LogOcInput: OculusInput pre-init called
+[2020.01.13-04.01.57:616][  0]LogHMD: Starting GearVRController plugin
+[2020.01.13-04.01.57:648][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.13-04.01.57:693][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-04.01.57:950][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' took 0.32s
+[2020.01.13-04.01.57:963][  1]LogAssetRegistry: Asset discovery search completed in 11.4113 seconds
+[2020.01.13-04.01.57:964][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.01.13-04.01.57:964][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2020.01.13-04.01.58:618][  3]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-04.02.00:325][  8]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-04.02.00:715][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2020.01.13-04.02.06:274][531]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.13-04.02.06:978][596]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.13-04.02.07:881][680]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2020.01.13-04.02.24:560][420]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.01.13-04.02.24:669][420]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.13-04.02.24:710][420]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.13-04.02.24:990][420]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2020.01.13-04.02.24:993][421]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:1).
+[2020.01.13-04.03.51:083][553]LogSavePackage: Save=21.07ms
+[2020.01.13-04.03.51:083][553]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/SM_Mossberg500F2A1DD694881CB480296CBA2CCCFC143.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Shotgun/SM_Mossberg500.uasset'
+[2020.01.13-04.03.51:086][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Shotgun/SM_Mossberg500.uasset
+[2020.01.13-04.04.25:579][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Guns/Gun_Shotgun" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Shotgun.uasset" SILENT=true
+[2020.01.13-04.04.25:614][784]LogSavePackage: Save=22.68ms
+[2020.01.13-04.04.25:614][784]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Gun_Shotgun1667820B401775898AC3F98840D173E7.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Shotgun.uasset'
+[2020.01.13-04.04.25:617][784]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Shotgun.uasset
+[2020.01.13-04.04.26:304][851]BlueprintLog: New page: Compile Gun_Shotgun
+[2020.01.13-04.04.41:790][554]LogSavePackage: Save=253.65ms
+[2020.01.13-04.04.41:790][554]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap8B5A835F4FF7449E2191EA96AD7AE2CC.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.04.41:793][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.04.42:186][554]LogSavePackage: Save=323.02ms
+[2020.01.13-04.04.42:186][554]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltDataFC0D520747C3D6AD2E98DBBD1E50E69B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.04.42:188][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.04.42:729][615]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-04.04.42:814][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.04.42:814][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-04.04.42:815][615]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 6:04:42 AM)
+[2020.01.13-04.04.42:815][615]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-04.04.42:840][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024867s)
+[2020.01.13-04.04.42:841][615]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.04.42:841][615]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2020.01.13-04.04.42:841][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026255s)
+[2020.01.13-04.04.42:887][615]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.04.42:898][615]LogInit: FAudioDevice initialized.
+[2020.01.13-04.04.42:943][615]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-04.04.42:947][615]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-05.04.42
+[2020.01.13-04.04.42:947][615]LogWorld: Bringing up level for play took: 0.003494
+[2020.01.13-04.04.42:990][615]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2020.01.13-04.04.42:993][615]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.08
+[2020.01.13-04.04.42:993][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.04.44:965][848]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.44:965][848]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.44:973][849]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.44:973][849]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.44:980][850]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.44:980][850]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.44:989][851]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.44:989][851]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.44:997][852]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.44:997][852]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.45:005][853]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.45:005][853]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.45:014][854]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.45:014][854]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.45:022][855]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.45:022][855]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoMaxText:003D
+[2020.01.13-04.04.45:030][856]LogScript:Warning: Accessed None trying to read property ArmaEquipada
+	ContadorMunicion_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SupervivenciaHUD_C_1.WidgetTree_8.ContadorMunicion_184
+	Function /Game/Widgets/ContadorMunicion.ContadorMunicion_C:GetAmmoCurrentText:003D
+[2020.01.13-04.04.45:907][959]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.45:907][959]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:190][993]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:190][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:332][ 10]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:332][ 10]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:558][ 37]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:558][ 37]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:674][ 51]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:675][ 51]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:833][ 70]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:833][ 70]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.46:991][ 89]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.46:991][ 89]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.47:208][115]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.47:208][115]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.47:324][129]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.47:325][129]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.55:841][149]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.55:841][149]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.56:007][169]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+	Jugador_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Jugador_C_0
+	Function /Game/FirstPersonBP/Blueprints/Jugador.Jugador_C:ExecuteUbergraph_Jugador:032F
+[2020.01.13-04.04.56:007][169]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2 from function: 'ExecuteUbergraph_Jugador' from node: Stop Shooting in graph: EventGraph in object: Jugador with description: Accessed None trying to read property K2Node_DynamicCast_AsGun_Parent2
+[2020.01.13-04.04.56:225][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.04.56:264][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.05.35:693][114]BlueprintLog: New page: Compile Muro_Sniper
+[2020.01.13-04.05.47:324][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Estructuras/Muro_Sniper" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Sniper.uasset" SILENT=true
+[2020.01.13-04.05.47:363][ 98]LogSavePackage: Save=21.33ms
+[2020.01.13-04.05.47:363][ 98]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Muro_Sniper8F2746FC4383C77976CB6390AA9F2CE5.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Sniper.uasset'
+[2020.01.13-04.05.47:366][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Sniper.uasset
+[2020.01.13-04.06.27:429][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Estructuras/Muro_Shotgun" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Shotgun.uasset" SILENT=true
+[2020.01.13-04.06.27:468][536]LogSavePackage: Save=20.04ms
+[2020.01.13-04.06.27:468][536]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Muro_ShotgunECCF5D924CC50F36DB5357A05E8F7EAF.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Shotgun.uasset'
+[2020.01.13-04.06.27:470][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_Shotgun.uasset
+[2020.01.13-04.06.27:886][564]BlueprintLog: New page: Compile Muro_Shotgun
+[2020.01.13-04.06.30:506][789]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-04.06.30:534][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.06.30:534][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-04.06.30:534][789]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 6:06:30 AM)
+[2020.01.13-04.06.30:535][789]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-04.06.30:557][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022279s)
+[2020.01.13-04.06.30:558][789]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.06.30:558][789]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2020.01.13-04.06.30:558][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023615s)
+[2020.01.13-04.06.30:602][789]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.06.30:612][789]LogInit: FAudioDevice initialized.
+[2020.01.13-04.06.30:642][789]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-04.06.30:646][789]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-05.06.30
+[2020.01.13-04.06.30:646][789]LogWorld: Bringing up level for play took: 0.003017
+[2020.01.13-04.06.30:649][789]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.423
+[2020.01.13-04.06.30:649][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.06.51:980][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.06.52:018][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.06.53:182][439]LogSavePackage: Save=258.63ms
+[2020.01.13-04.06.53:182][439]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapBBF3218946AAD60D973402B765DACE4B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.06.53:185][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.06.53:452][439]LogSavePackage: Save=210.52ms
+[2020.01.13-04.06.53:452][439]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData6955E0FC42DD4292E296E18F4196FCE0.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.06.53:454][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.06.55:880][680]LogSavePackage: Save=258.67ms
+[2020.01.13-04.06.55:880][680]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapB06C7A31467B678DA852FEBF2900AEB7.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.06.55:882][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.06.56:149][680]LogSavePackage: Save=210.40ms
+[2020.01.13-04.06.56:149][680]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltDataDC3732514531F3688923BB9C32D7758B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.06.56:151][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.07.58:580][ 28]LogSavePackage: Save=264.05ms
+[2020.01.13-04.07.58:580][ 28]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapA3CCC2E94D6FBAD8B9616197A7EE2265.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.07.58:582][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.07.58:857][ 28]LogSavePackage: Save=218.74ms
+[2020.01.13-04.07.58:857][ 28]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData016886FB4917019EDD383C867A36BC1B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.07.58:860][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.13.52:081][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/textures/RPG_diffuse.png)
+[2020.01.13-04.13.52:277][392]LogTexture:Display: Building textures: RPG_diffuse (AutoDXT, 2048X2048)
+[2020.01.13-04.13.53:172][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/textures/RPG_gloss.png)
+[2020.01.13-04.13.53:219][392]LogTexture:Display: Building textures: RPG_gloss (AutoDXT, 2048X2048)
+[2020.01.13-04.13.53:960][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/textures/RPG_specular.png)
+[2020.01.13-04.13.54:108][392]LogTexture:Display: Building textures: RPG_specular (AutoDXT, 2048X2048)
+[2020.01.13-04.13.57:452][667]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.13.59:820][913]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.13.59:941][913]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.13.59:956][913]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.13.59:997][913]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.00:836][947]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.00:836][947]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.00:836][947]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.00:836][947]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.05:443][328]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.05:454][328]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.05:488][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.06:100][357]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.06:100][357]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.06:100][357]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.06:100][357]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.08:067][525]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.08:595][552]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.08:595][552]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.08:595][552]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.08:595][552]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.11:203][777]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.11:733][805]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.11:733][805]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.11:733][805]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.11:733][805]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.12:404][862]LogMaterialEditor: Saving and Compiling material RPG_diffuse_Mat
+[2020.01.13-04.14.12:932][862]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.12:972][862]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.12:992][862]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.13:035][862]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.14.13:361][862]TextureStreamingBuild:Display: Compiling optional shaders took 0.331 seconds.
+[2020.01.13-04.14.14:532][862]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-04.14.14:576][862]LogSavePackage: Save=15.72ms
+[2020.01.13-04.14.14:576][862]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_diffuse_Mat13B2FA7A4F44258B298479BE96E6034A.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse_Mat.uasset'
+[2020.01.13-04.14.14:578][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse_Mat.uasset
+[2020.01.13-04.14.14:585][862]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.14:585][862]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.14:585][862]MaterialEditorStats: Info Texture samplers: 3/16
+[2020.01.13-04.14.14:585][862]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.20:258][369]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.20:945][432]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.21:074][432]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.21:095][432]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.21:144][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.21:790][455]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.21:790][455]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.21:790][455]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.21:790][455]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.26:386][828]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.26:398][828]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.26:433][828]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.26:948][853]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.26:948][853]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.26:948][853]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.26:948][853]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.28:832][ 15]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.29:368][ 42]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.29:368][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.29:368][ 42]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.29:368][ 42]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.31:138][198]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.31:672][226]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.31:672][226]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.31:672][226]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.31:672][226]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.32:449][293]LogMaterialEditor: Saving and Compiling material RPG_gloss_Mat
+[2020.01.13-04.14.32:979][293]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.33:016][293]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.33:040][293]LogMaterial: Missing cached shader map for material RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.33:089][293]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RPG_gloss_Mat, compiling. 
+[2020.01.13-04.14.33:406][293]TextureStreamingBuild:Display: Compiling optional shaders took 0.323 seconds.
+[2020.01.13-04.14.34:619][293]LogSavePackage: Save=15.61ms
+[2020.01.13-04.14.34:619][293]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_gloss_Mat9CF07355490A9237BAA244B4C37EAF0F.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss_Mat.uasset'
+[2020.01.13-04.14.34:622][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss_Mat.uasset
+[2020.01.13-04.14.34:630][293]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.34:630][293]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.34:630][293]MaterialEditorStats: Info Texture samplers: 3/16
+[2020.01.13-04.14.34:630][293]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.34:918][314]LogMaterialEditor: Saving and Compiling material RPG_gloss_Mat
+[2020.01.13-04.14.34:972][314]LogSavePackage: Save=7.00ms
+[2020.01.13-04.14.34:972][314]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_gloss_MatFC07A4DC4A7E55345A4A2BADF91B14DD.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss_Mat.uasset'
+[2020.01.13-04.14.34:973][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss_Mat.uasset
+[2020.01.13-04.14.39:343][733]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.40:146][806]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.40:287][806]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.40:314][806]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.40:361][806]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.40:957][828]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.40:957][828]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.40:957][828]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.40:957][828]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.45:681][212]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.45:692][212]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.45:732][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.13-04.14.46:253][238]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.46:253][238]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.46:253][238]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.46:253][238]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.48:361][411]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.48:889][438]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2020.01.13-04.14.48:889][438]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.48:889][438]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.48:889][438]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.51:086][629]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.51:627][658]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.51:627][658]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.51:627][658]MaterialEditorStats: Info Texture samplers: 2/16
+[2020.01.13-04.14.51:627][658]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.14.52:434][727]LogMaterialEditor: Saving and Compiling material RPG_specular_Mat
+[2020.01.13-04.14.52:967][727]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.53:004][727]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.53:026][727]LogMaterial: Missing cached shader map for material RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.53:077][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RPG_specular_Mat, compiling. 
+[2020.01.13-04.14.53:403][727]TextureStreamingBuild:Display: Compiling optional shaders took 0.334 seconds.
+[2020.01.13-04.14.54:590][727]LogSavePackage: Save=15.57ms
+[2020.01.13-04.14.54:590][727]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_specular_Mat418106E44C50244B604E37B1F2C698E3.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_specular_Mat.uasset'
+[2020.01.13-04.14.54:593][727]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_specular_Mat.uasset
+[2020.01.13-04.14.54:600][727]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2020.01.13-04.14.54:600][727]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2020.01.13-04.14.54:600][727]MaterialEditorStats: Info Texture samplers: 3/16
+[2020.01.13-04.14.54:600][727]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.13-04.15.23:952][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/source/RPG.zip/RPG.obj)
+[2020.01.13-04.15.23:962][173]LogFbx: Loading FBX Scene from ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/source/RPG.zip/RPG.obj
+[2020.01.13-04.15.23:992][173]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-04.15.26:061][173]LogFbx: Loading FBX Scene from ../../../../../../Users/Carlos Gómez/Downloads/rpg-7/source/RPG.zip/RPG.obj
+[2020.01.13-04.15.26:090][173]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-04.15.26:092][173]LogFbx: =================================================
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node START [RPG_Lanceur] 
+[2020.01.13-04.15.26:092][173]LogFbx: 	Total Deformer Count -504717312.
+[2020.01.13-04.15.26:092][173]LogFbx: 	Attribute () Type (4).
+[2020.01.13-04.15.26:092][173]LogFbx: 		[Node Attribute Child 1] RPG_Lanceur (Type Mesh).
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node END [RPG_Lanceur]
+[2020.01.13-04.15.26:092][173]LogFbx: =================================================
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node START [RPG_Lanceur] 
+[2020.01.13-04.15.26:092][173]LogFbx: 	Total Deformer Count -504723328.
+[2020.01.13-04.15.26:092][173]LogFbx: 	Attribute () Type (4).
+[2020.01.13-04.15.26:092][173]LogFbx: 		[Node Attribute Child 1] RPG_Lanceur (Type Mesh).
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node END [RPG_Lanceur]
+[2020.01.13-04.15.26:092][173]LogFbx: =================================================
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node START [RPG_Lanceur] 
+[2020.01.13-04.15.26:092][173]LogFbx: 	Total Deformer Count -504723328.
+[2020.01.13-04.15.26:092][173]LogFbx: 	Attribute () Type (4).
+[2020.01.13-04.15.26:092][173]LogFbx: 		[Node Attribute Child 1] RPG_Lanceur (Type Mesh).
+[2020.01.13-04.15.26:092][173]LogFbx: Dumping Node END [RPG_Lanceur]
+[2020.01.13-04.15.26:092][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_LanceurMat'
+[2020.01.13-04.15.26:092][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_LanceurMat'
+[2020.01.13-04.15.26:093][173]LogMaterial:Warning: Material /Game/Guns/Bazooka/RPG_LanceurMat.RPG_LanceurMat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.01.13-04.15.26:095][173]LogMaterial: Missing cached shader map for material RPG_LanceurMat, compiling. 
+[2020.01.13-04.15.26:129][173]LogMaterial: Missing cached shader map for material RPG_LanceurMat, compiling. 
+[2020.01.13-04.15.26:161][173]LogFbx: Triangulating skeletal mesh RPG_Lanceur
+[2020.01.13-04.15.26:375][173]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2020.01.13-04.15.26:430][173]LogSkeletalMesh: Section 0: 3137 vertices, 1 active bones
+[2020.01.13-04.15.26:431][173]LogSkeletalMesh: Section 0: Material=0, 3094 triangles
+[2020.01.13-04.15.26:433][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_Skeleton'
+[2020.01.13-04.15.26:433][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_Skeleton'
+[2020.01.13-04.15.26:436][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_PhysicsAsset'
+[2020.01.13-04.15.26:436][173]LogLinker: Can't find file '/Game/Guns/Bazooka/RPG_PhysicsAsset'
+[2020.01.13-04.15.26:443][173]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.01.13-04.15.30:844][554]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2020.01.13-04.15.30:883][554]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2020.01.13-04.15.42:870][439]LogMaterial:Warning: Material /Game/Guns/Bazooka/Materials/RPG_diffuse_Mat.RPG_diffuse_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.01.13-04.15.42:872][439]LogMaterial: Missing cached shader map for material RPG_diffuse_Mat, compiling. 
+[2020.01.13-04.16.01:470][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Guns/Bazooka/RPG" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG.uasset" SILENT=true
+[2020.01.13-04.16.01:492][810]LogSavePackage: Save=19.02ms
+[2020.01.13-04.16.01:492][810]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG0F47045C41ECCB05869D2F8B8C05CB03.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG.uasset'
+[2020.01.13-04.16.01:494][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG.uasset
+[2020.01.13-04.17.25:344][936]BlueprintLog: New page: Compile Gun_Bazooka
+[2020.01.13-04.17.26:020][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Guns/Gun_Bazooka" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset" SILENT=true
+[2020.01.13-04.17.26:047][974]LogSavePackage: Save=23.71ms
+[2020.01.13-04.17.26:047][974]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Gun_Bazooka45EF48B840D00771349B89ACFBD592EE.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset'
+[2020.01.13-04.17.26:050][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset
+[2020.01.13-04.17.30:244][423]LogEditorViewport: Clicking on Actor (LMB): Muro_Sniper_C (Muro_Sniper)
+[2020.01.13-04.17.34:194][887]LogEditorViewport: Clicking on Actor (LMB): Muro_Shotgun_C (Muro_Shotgun)
+[2020.01.13-04.17.36:072][104]LogEditorViewport: Clicking on Actor (LMB): Muro_Rifle_C (Muro_Rifle)
+[2020.01.13-04.17.56:699][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.01.13-04.17.57:798][579]LogSavePackage: Save=265.65ms
+[2020.01.13-04.17.57:798][579]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap725D74E74E8975B3C9E4598FFF7A4F6C.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.17.57:801][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.17.58:089][579]LogSavePackage: Save=213.66ms
+[2020.01.13-04.17.58:089][579]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData42BCC86949F1A950D5ADB48FCF562915.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.17.58:091][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.18.05:454][171]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.13-04.18.08:328][389]LogSavePackage: Save=24.68ms
+[2020.01.13-04.18.08:328][389]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Muro_RocketLauncherEDA2E1124DD66C9312BC5BB6ADC89719.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_RocketLauncher.uasset'
+[2020.01.13-04.18.08:331][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Estructuras/Muro_RocketLauncher.uasset
+[2020.01.13-04.18.08:750][415]BlueprintLog: New page: Compile Muro_RocketLauncher
+[2020.01.13-04.18.11:606][642]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-04.18.11:644][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.11:644][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-04.18.11:644][642]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 6:18:11 AM)
+[2020.01.13-04.18.11:644][642]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-04.18.11:665][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020932s)
+[2020.01.13-04.18.11:666][642]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.18.11:666][642]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2020.01.13-04.18.11:666][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022296s)
+[2020.01.13-04.18.11:712][642]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.18.11:722][642]LogInit: FAudioDevice initialized.
+[2020.01.13-04.18.11:756][642]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-04.18.11:761][642]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-05.18.11
+[2020.01.13-04.18.11:761][642]LogWorld: Bringing up level for play took: 0.003545
+[2020.01.13-04.18.11:764][642]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.692
+[2020.01.13-04.18.11:764][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.18:599][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.18:652][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.19:595][528]LogSavePackage: Save=264.96ms
+[2020.01.13-04.18.19:595][528]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapA03265AE4A3146F4F8F7A1A073581F7B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.18.19:599][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.18.19:866][528]LogSavePackage: Save=209.42ms
+[2020.01.13-04.18.19:866][528]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData948ECB9F45DBB50899C70E8394A35464.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.18.19:868][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.18.27:789][462]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-04.18.27:824][462]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.27:824][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-04.18.27:824][462]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 6:18:27 AM)
+[2020.01.13-04.18.27:824][462]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-04.18.27:846][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021222s)
+[2020.01.13-04.18.27:847][462]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.18.27:847][462]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2020.01.13-04.18.27:847][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022520s)
+[2020.01.13-04.18.27:892][462]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.18.27:902][462]LogInit: FAudioDevice initialized.
+[2020.01.13-04.18.27:932][462]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-04.18.27:936][462]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-05.18.27
+[2020.01.13-04.18.27:937][462]LogWorld: Bringing up level for play took: 0.003224
+[2020.01.13-04.18.27:939][462]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.868
+[2020.01.13-04.18.27:940][462]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.36:110][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.36:166][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.18.44:845][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.19.08:061][226]BlueprintLog: New page: Compile Gun_Bazooka
+[2020.01.13-04.19.14:074][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Guns/Gun_Bazooka" FILE="../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset" SILENT=true
+[2020.01.13-04.19.14:114][708]LogSavePackage: Save=22.17ms
+[2020.01.13-04.19.14:114][708]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Gun_BazookaE1B754564812EE248D89B89FBDE7986D.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset'
+[2020.01.13-04.19.14:117][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Gun_Bazooka.uasset
+[2020.01.13-04.19.17:118][940]BlueprintLog: New page: Compile Gun_Bazooka
+[2020.01.13-04.19.44:261][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.19.44:722][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.19.44:945][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.19.45:531][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.19.46:209][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.13-04.20.31:602][130]LogSavePackage: Save=279.31ms
+[2020.01.13-04.20.31:602][130]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap477160CF42EA589EE7E705A4712483F7.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.20.31:604][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.20.31:892][130]LogSavePackage: Save=227.41ms
+[2020.01.13-04.20.31:892][130]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltDataEA0DE73844B4A29612FC48B2DFD9C75F.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.20.31:893][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.22.00:611][565]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.13-04.22.00:645][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.22.00:645][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-04.22.00:645][565]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2020, 6:22:00 AM)
+[2020.01.13-04.22.00:645][565]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.01.13-04.22.00:668][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023283s)
+[2020.01.13-04.22.00:669][565]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.13-04.22.00:669][565]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2020.01.13-04.22.00:670][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024678s)
+[2020.01.13-04.22.00:716][565]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-04.22.00:729][565]LogInit: FAudioDevice initialized.
+[2020.01.13-04.22.00:760][565]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.13-04.22.00:765][565]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.01.13-05.22.00
+[2020.01.13-04.22.00:765][565]LogWorld: Bringing up level for play took: 0.003690
+[2020.01.13-04.22.00:769][565]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.303
+[2020.01.13-04.22.00:769][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.22.18:995][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.22.19:044][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.01.13-04.22.20:811][910]LogSavePackage: Save=270.85ms
+[2020.01.13-04.22.20:811][910]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap8DCE9D7F4FB6AC6BAB4A28AE0636DDE6.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.22.20:813][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.22.21:092][910]LogSavePackage: Save=219.57ms
+[2020.01.13-04.22.21:092][910]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData637203D04037B1F4B6E35C8F7BDDFBC1.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.22.21:094][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.22.56:743][ 92]LogSavePackage: Save=262.41ms
+[2020.01.13-04.22.56:743][ 92]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMapBB7B14CB4C33C880674E5CAE716F121E.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.01.13-04.22.56:746][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.01.13-04.22.57:025][ 92]LogSavePackage: Save=219.05ms
+[2020.01.13-04.22.57:025][ 92]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/FirstPersonExampleMap_BuiltData67A9013246B2D383F9829B8A6B6F1A9D.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.01.13-04.22.57:027][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.01.13-04.24.29:166][646]LogSavePackage: Save=501.32ms
+[2020.01.13-04.24.29:166][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_diffuse93D65CF246EFF8B922A8FB89E93DC5C1.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse.uasset'
+[2020.01.13-04.24.29:169][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse.uasset
+[2020.01.13-04.24.29:200][646]LogSavePackage: Save=6.87ms
+[2020.01.13-04.24.29:200][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_diffuse_Mat3DFABC264AE76FA0F1138D8550D3072B.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse_Mat.uasset'
+[2020.01.13-04.24.29:202][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_diffuse_Mat.uasset
+[2020.01.13-04.24.29:416][646]LogSavePackage: Save=196.39ms
+[2020.01.13-04.24.29:416][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_gloss8B560A864986C61B7E90BDA61C65B394.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss.uasset'
+[2020.01.13-04.24.29:419][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_gloss.uasset
+[2020.01.13-04.24.29:748][646]LogSavePackage: Save=315.68ms
+[2020.01.13-04.24.29:748][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_specular5B7057FD4C0A6C0DAFE063987D6AA234.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_specular.uasset'
+[2020.01.13-04.24.29:750][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/Materials/RPG_specular.uasset
+[2020.01.13-04.24.29:784][646]LogSavePackage: Save=14.82ms
+[2020.01.13-04.24.29:784][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_LanceurMatEECEF5AD400CFA0AA935BBB983F889C2.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_LanceurMat.uasset'
+[2020.01.13-04.24.29:787][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_LanceurMat.uasset
+[2020.01.13-04.24.29:797][646]LogSavePackage: Save=5.74ms
+[2020.01.13-04.24.29:797][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_PhysicsAsset76CF3CF44563CB7D0D1D14B3675ABE06.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_PhysicsAsset.uasset'
+[2020.01.13-04.24.29:800][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_PhysicsAsset.uasset
+[2020.01.13-04.24.29:814][646]LogSavePackage: Save=5.96ms
+[2020.01.13-04.24.29:814][646]LogSavePackage: Moving '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/RPG_Skeleton46DEEBBE498FD07CD946539FF8870A5D.tmp' to '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_Skeleton.uasset'
+[2020.01.13-04.24.29:817][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Guns/Bazooka/RPG_Skeleton.uasset
+[2020.01.13-04.24.30:019][646]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.13-04.24.30:227][647]Cmd: QUIT_EDITOR
+[2020.01.13-04.24.30:407][647]LogExit: Preparing to exit.
+[2020.01.13-04.24.30:944][647]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.13-04.24.30:990][647]LogExit: Editor shut down
+[2020.01.13-04.24.30:995][647]LogExit: Transaction tracking system shut down
+[2020.01.13-04.24.31:104][647]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.13-04.24.31:104][647]LogExit: Object subsystem successfully closed.
+[2020.01.13-04.24.31:131][647]LogD3D11RHI: Shutdown
+[2020.01.13-04.24.31:131][647]LogD3D11RHI: CleanupD3DDevice
+[2020.01.13-04.24.31:259][647]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.01.13-04.24.31:275][647]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.01.13-04.24.31:275][647]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.01.13-04.24.31:276][647]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Collections/' was aborted.
+[2020.01.13-04.24.31:276][647]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/Developers/CarlosGómez/Collections/' was aborted.
+[2020.01.13-04.24.31:276][647]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Saved/Collections/' was aborted.
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.01.13-04.24.31:276][647]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.01.13-04.24.31:277][647]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.01.13-04.24.31:686][647]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.01.13-04.24.31:687][647]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.01.13-04.24.31:742][647]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.01.13-04.24.31:748][647]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.01.13-04.24.31:749][647]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.01.13-04.24.31:750][647]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.01.13-04.24.31:751][647]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.01.13-04.24.31:752][647]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.01.13-04.24.31:853][647]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.01.13-04.24.31:953][647]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.01.13-04.24.31:955][647]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.01.13-04.24.31:957][647]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.01.13-04.24.32:125][647]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.01.13-04.24.32:125][647]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Carlos Gómez/Desktop/videojuego_shooter/EntregaJuegoUnreal2/Content/' was aborted.
+[2020.01.13-04.24.32:125][647]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.01.13-04.24.32:125][647]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.01.13-04.24.32:128][647]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.01.13-04.24.32:128][647]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.01.13-04.24.32:128][647]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.01.13-04.24.32:128][647]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.01.13-04.24.32:128][647]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.01.13-04.24.32:129][647]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.01.13-04.24.32:129][647]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.01.13-04.24.32:129][647]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.01.13-04.24.32:129][647]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.01.13-04.24.32:194][647]LogDerivedDataCache: Shutdown
+[2020.01.13-04.24.32:194][647]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.01.13-04.24.32:194][647]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.01.13-04.24.32:194][647]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.01.13-04.24.32:194][647]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.13-04.24.32:195][647]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.13-04.24.32:195][647]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.13-04.24.32:195][647]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.13-04.24.32:195][647]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA28AEF9C-42BC-DADB-887E-83BB0DBA39F6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=96c22fcc4a13df48a702c0b25280ec08%7C5727c0aceda34a2a8745d0ddd25f12e5%7C2451b241-4f41-47a9-baf2-594cddf6b242&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.13-04.24.32:212][647]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.13-04.24.32:213][647]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.13-04.24.32:214][647]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.13-04.24.32:216][647]LogExit: Exiting.
+[2020.01.13-04.24.32:241][647]Log file closed, 01/13/20 05:24:32
